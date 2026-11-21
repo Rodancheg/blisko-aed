@@ -1,0 +1,104 @@
+{
+  "status": "draft_for_review",
+  "source_id": "pl.warszawa.scb.aed",
+  "observed_at": "2026-11-21T10:37:05.055000Z",
+  "http_status": 200,
+  "record_count": 708,
+  "unique_source_record_ids": 708,
+  "fields_present_in_every_record": [
+    "defibrillator_id",
+    "device_access_description",
+    "device_availability",
+    "device_location",
+    "device_manufacturer",
+    "device_public_access",
+    "device_specifications",
+    "location_building",
+    "location_city",
+    "location_description",
+    "location_object_name",
+    "location_postcode",
+    "location_street"
+  ],
+  "missing_values": {
+    "defibrillator_id": 0,
+    "device_access_description": 96,
+    "device_availability": 0,
+    "device_location": 0,
+    "device_manufacturer": 0,
+    "device_public_access": 0,
+    "device_specifications": 0,
+    "location_building": 0,
+    "location_city": 0,
+    "location_description": 0,
+    "location_object_name": 0,
+    "location_postcode": 0,
+    "location_street": 0
+  },
+  "value_counts": {
+    "device_public_access": {
+      "Publiczny": 608,
+      "Prywatny": 100
+    },
+    "device_availability": {
+      "Ograniczona": 95,
+      "Tak": 100,
+      "Nie": 511,
+      "Nie (dostęp: pon. - piątek 8:00 - 16:00)": 1,
+      "dostęp w godz. 8:00 - 17:00": 1
+    },
+    "device_location": {
+      "Wewnątrz budynku": 686,
+      "Na zewnątrz budynku": 20,
+      "Wewnątrz budynku, gabinet zabiegowy": 1,
+      "Wewnątrz budynku, ściana, peron w kierunku Kabaty": 1
+    },
+    "device_specifications": {
+      "Nie": 179,
+      "Tak": 400,
+      "Brak informacji": 129
+    }
+  },
+  "application_findings": [
+    {
+      "location": "server.js:loadWarsaw",
+      "finding": "POST с Authorization; таймаут 8 секунд; кеш в памяти до 4 часов, обновляемый при запросе. Сохранения полного исходного набора на диск нет."
+    },
+    {
+      "location": "server.js:warsawPoints",
+      "finding": "Исходные поля сворачиваются в id/source/lat/lon/name/address/description/access/hours/distance. Радиус 10 км, максимум 12 точек. manufacturer, device_location, device_specifications и postcode в ответ не попадают."
+    },
+    {
+      "location": "server.js:/api/export",
+      "finding": "Отдельное преобразование оставляет id/source/lat/lon/name/hours/description/updated; updated означает время импорта, а не проверки AED."
+    },
+    {
+      "location": "server.js:/api/photo",
+      "finding": "Отдельный POST с ID и Authorization; base64 attachment преобразуется в JPEG/PNG."
+    },
+    {
+      "location": "dist/hours.js",
+      "finding": "Ни одно из 708 текущих значений device_access_description не соответствует поддержанным форматам; результат для Варшавы будет unknown."
+    }
+  ],
+  "open_questions": [
+    "Уточнить у поставщика точный смысл device_availability и device_specifications.",
+    "Уточнить версию и URI лицензии Creative Commons Attribution.",
+    "Уточнить наличие дат изменения/проверки отдельных устройств и сведений об исправности.",
+    "Подтвердить правила нормализации польских текстов расписаний, включая праздники и исключения."
+  ],
+  "validation": {
+    "records_validated": 708,
+    "original_fields_preserved": true,
+    "unique_initial_registry_ids": true,
+    "nested_point_rejected": true,
+    "invalid_latitude_rejected": true,
+    "same_local_id_in_other_source_has_distinct_registry_id": true
+  },
+  "notes": [
+    "Это проект контракта, а не миграция действующего приложения.",
+    "В примере opening_hours оставлено null: автоматическая интерпретация расписаний ещё не реализована.",
+    "UUID v5 в примере детерминирован по источнику и исходному ID для повторяемого первичного импорта; при последующем объединении дублей ID выбирается и сохраняется в реестре.",
+    "Весь исходный набор проверен локально; в файлы проекта включён только пример устройства 622."
+  ]
+}

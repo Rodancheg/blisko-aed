@@ -1,0 +1,361 @@
+{
+  "$defs": {
+    "Geometry": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "Point",
+          "default": "Point",
+          "title": "Type",
+          "type": "string"
+        },
+        "coordinates": {
+          "description": "WGS84: [долгота, широта], десятичные градусы. Вложенный массив Варшавы распрямляется при импорте.",
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "maximum": 180,
+              "minimum": -180,
+              "type": "number"
+            },
+            {
+              "maximum": 90,
+              "minimum": -90,
+              "type": "number"
+            }
+          ],
+          "title": "Coordinates",
+          "type": "array"
+        }
+      },
+      "required": [
+        "coordinates"
+      ],
+      "title": "Geometry",
+      "type": "object"
+    },
+    "Properties": {
+      "additionalProperties": false,
+      "properties": {
+        "defibrillator_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Оригинальный ID в основном источнике; НЕ глобальный ID устройства. Все исходные идентификаторы перечислены в provenance.",
+          "title": "Defibrillator Id"
+        },
+        "device_access_description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Оригинальное текстовое описание часов и условий доступа. Сохраняется без интерпретации.",
+          "title": "Device Access Description"
+        },
+        "device_availability": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Оригинальное значение источника. Tak/Nie/Ograniczona и свободный текст не преобразуются автоматически в открыто/закрыто или исправно/неисправно.",
+          "title": "Device Availability"
+        },
+        "device_location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Описание размещения: внутри/снаружи и дополнительные детали, как в источнике.",
+          "title": "Device Location"
+        },
+        "device_manufacturer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Производитель по данным источника.",
+          "title": "Device Manufacturer"
+        },
+        "device_public_access": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Оригинальное описание публичности доступа, например Publiczny/Prywatny.",
+          "title": "Device Public Access"
+        },
+        "device_specifications": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Поле присутствует в живом API Варшавы. Его предметный смысл пока не подтверждён; сохраняем исходную строку.",
+          "title": "Device Specifications"
+        },
+        "location_building": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Номер здания; строка, допускающая 25/27 и буквенные суффиксы.",
+          "title": "Location Building"
+        },
+        "location_city": {
+          "description": "Населённый пункт. null, если он неизвестен: название сельской или городской-сельской гмины не подставляется вместо населённого пункта.",
+          "minLength": 1,
+          "title": "Location City",
+          "type": ["string", "null"]
+        },
+        "location_description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Как найти устройство внутри указанного места.",
+          "title": "Location Description"
+        },
+        "location_object_name": {
+          "description": "Название места размещения AED.",
+          "minLength": 1,
+          "title": "Location Object Name",
+          "type": "string"
+        },
+        "location_postcode": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Почтовый индекс; строка.",
+          "title": "Location Postcode"
+        },
+        "location_street": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Название улицы.",
+          "title": "Location Street"
+        },
+        "opening_hours": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Нормализованные часы в синтаксисе opening_hours. null, пока текст не разобран и результат не проверен. Не подменяет оригинал device_access_description.",
+          "title": "Opening Hours"
+        },
+        "opening_hours_timezone": {
+          "default": "Europe/Warsaw",
+          "description": "Часовой пояс для расчёта часов доступа в Польше.",
+          "title": "Opening Hours Timezone",
+          "type": "string"
+        },
+        "device_operational_status": {
+          "default": "unknown",
+          "description": "Состояние устройства. Не выводится из device_availability или описания набора; требует отдельных подтверждающих данных.",
+          "enum": [
+            "unknown",
+            "operational",
+            "out_of_service",
+            "decommissioned"
+          ],
+          "title": "Device Operational Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "location_city",
+        "location_object_name"
+      ],
+      "title": "Properties",
+      "type": "object"
+    },
+    "SourceRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "description": "Ссылка на реестр источников, например pl.warszawa.scb.aed.",
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_record_id": {
+          "description": "ID записи внутри конкретного источника. Уникальность определяется парой source_id + source_record_id.",
+          "minLength": 1,
+          "title": "Source Record Id",
+          "type": "string"
+        },
+        "source_updated_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Дата обновления именно этой записи у поставщика, если известна. Метаданные карточки портала сюда не копируются.",
+          "title": "Source Updated At"
+        },
+        "imported_at": {
+          "description": "Фактическое время получения записи приложением, UTC.",
+          "format": "date-time",
+          "title": "Imported At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "source_record_id",
+        "imported_at"
+      ],
+      "title": "SourceRecord",
+      "type": "object"
+    },
+    "Verification": {
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "default": "unverified",
+          "description": "Результат нашей проверки записи; не равен полю verified карточки dane.gov.pl.",
+          "enum": [
+            "unverified",
+            "verified",
+            "rejected"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "last_verified_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Дата нашей проверки записи или устройства; null, если её не было.",
+          "title": "Last Verified At"
+        }
+      },
+      "title": "Verification",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "const": "Feature",
+      "default": "Feature",
+      "title": "Type",
+      "type": "string"
+    },
+    "id": {
+      "description": "Постоянный ID записи общего реестра, независимый от локальных числовых ID городов. После объединения дублей сохраняется ID выбранной основной записи.",
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "geometry": {
+      "$ref": "#/$defs/Geometry"
+    },
+    "properties": {
+      "$ref": "#/$defs/Properties"
+    },
+    "provenance": {
+      "description": "Все связанные исходные записи. При объединении дублей список расширяется.",
+      "items": {
+        "$ref": "#/$defs/SourceRecord"
+      },
+      "minItems": 1,
+      "title": "Provenance",
+      "type": "array"
+    },
+    "verification": {
+      "$ref": "#/$defs/Verification"
+    }
+  },
+  "required": [
+    "id",
+    "geometry",
+    "properties",
+    "provenance"
+  ],
+  "title": "Blisko AED — draft common record 0.1.0",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Черновик для обсуждения на основе живого API Варшавы. Стандартная геометрия GeoJSON и исходные названия полей Варшавы; дополнительные города используют ту же структуру. attachment хранится отдельно от основного реестра."
+}

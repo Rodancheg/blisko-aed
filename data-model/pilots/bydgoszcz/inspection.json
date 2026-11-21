@@ -1,0 +1,51 @@
+{
+  "status": "pilot",
+  "administrative_area": {
+    "country": "PL",
+    "voivodeship": "kujawsko-pomorskie",
+    "gmina": "Bydgoszcz",
+    "gmina_type": "miejska",
+    "terc": "0461011",
+    "terc_reference": "https://bdl.stat.gov.pl/bdl/dane/teryt/jednostka/933",
+    "boundary_source": "https://www.openstreetmap.org/relation/358688",
+    "boundary_admin_level": "6",
+    "note": "Pilot uses the OSM city/powiat boundary, coextensive with the city municipality; the 7-digit gmina TERC comes from GUS, not from the 4-digit OSM powiat tag."
+  },
+  "poland_snapshot_records": 18296,
+  "poland_invalid_or_nonpoint_records": 0,
+  "bbox_candidates": 144,
+  "inside_city_boundary": 140,
+  "bbox_candidates_outside_city": 4,
+  "osm_missing_name_and_operator": 115,
+  "osm_missing_address_street": 139,
+  "osm_with_opening_hours": 51,
+  "osm_access_values": {
+    "yes": 40,
+    "unknown": 15,
+    "private": 35,
+    "customers": 39,
+    "permit": 11
+  },
+  "municipal_aed_records": 112,
+  "municipal_with_coordinates": 1,
+  "municipal_needs_coordinates": 111,
+  "municipal_normalized_inside_city": 1,
+  "snapshot_sha256": "2f83a8e99d11eb0262613a04f45a082993743e2cc90a4f760bc7c86dcd864b49",
+  "mapping_notes": [
+    "All selected raw OSM tags are preserved in osm.raw.geojson, including operator, level, check_date, images and fixme.",
+    "location_city is resolved spatially. Address fields are never guessed from an institution name or a nearby point.",
+    "name falls back to operator and then a generic AED label; the fallback is not a verified building name.",
+    "device_availability and device_specifications remain null: OSM access is not an equivalent of those Warsaw fields.",
+    "Only literal 24/7 is accepted as normalized opening_hours; other original expressions await validation.",
+    "Municipal KML includes non-AED layers, excluded by selecting only folder AED.",
+    "Records without coordinates remain in staging. No reverse geocoding, matching or deduplication has been performed.",
+    "The municipal source is kept separate pending confirmation of reuse terms. It is not attributed to OSM.",
+    "Counts are records in downloaded sources, not a verified count of physical devices or complete city coverage.",
+    "For nationwide production grouping, use versioned official PRG boundaries and retain unresolved or boundary-ambiguous records."
+  ],
+  "validation": {
+    "common_model_records_validated": 141,
+    "source_coordinates_and_ids_preserved": true,
+    "polygon_holes_edges_and_multipolygons_checked": true
+  }
+}

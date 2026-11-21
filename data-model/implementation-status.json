@@ -1,0 +1,109 @@
+{
+  "updated_on": "2026-11-21",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Wspólna struktura danych",
+      "status": "implemented",
+      "artifacts": [
+        "lib/data-model.js",
+        "data-model/registry-feature.schema.json",
+        "data-model/field-catalog.json",
+        "data-model/examples/warsaw-622.v1.geojson"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Rejestr źródeł",
+      "status": "implemented",
+      "artifacts": [
+        "lib/source-store.js"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Import JSON, GeoJSON, CSV i XLSX",
+      "status": "implemented",
+      "artifacts": [
+        "tools/read_import.py",
+        "lib/import-reader.js",
+        "dist/data-hub.js",
+        "data-model/templates/"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Aktualizacja po ID i idempotencja",
+      "status": "implemented"
+    },
+    {
+      "id": 5,
+      "title": "Porównanie wersji i oryginały",
+      "status": "implemented"
+    },
+    {
+      "id": 6,
+      "title": "Decyzje pakietowe i cofanie",
+      "status": "implemented"
+    },
+    {
+      "id": 7,
+      "title": "Publiczne rejestry gmin",
+      "status": "implemented",
+      "artifacts": [
+        "dist/datasets.html",
+        "dist/datasets.js"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Codzienne sprawdzanie źródeł",
+      "status": "implemented",
+      "artifacts": [
+        "lib/source-sync.js"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Przygotowanie integracji dane.gov.pl",
+      "status": "prepared_not_connected",
+      "artifacts": [
+        "lib/portal-export.js",
+        "data-model/dane-gov/"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Materiały konkursowe",
+      "status": "prepared_needs_campaign_revision",
+      "artifacts": [
+        "outputs/01a1fda4-87d5-7000-8717-372d72399061/"
+      ],
+      "remaining": "Dostosować materiały promocyjne do pozyskiwania instytucji i firm jako dostawców danych; nie przedstawiać ich jako ukończonej kampanii obywatelskiej."
+    }
+  ],
+  "verification": {
+    "syntax_only": true,
+    "functional_tests_run": false,
+    "browser_test_scenarios_run": false,
+    "screenshots_captured_for_presentation": true,
+    "portal_import_validated": false
+  },
+  "limitations": [
+    "Nie wyznaczono organizacji odpowiedzialnej za zbiór wynikowy; publiczny XML dla portalu pozostaje nieaktywny.",
+    "Rejestry gmin pojawiają się wraz z przygotowaniem granic przez zbieracz.",
+    "Pilotaż miejskiego źródła Bydgoszczy wymaga współrzędnych i potwierdzenia warunków.",
+    "Harmonogram wymaga działającego serwera.",
+    "Publikacja w dane.gov.pl wymaga publicznego HTTPS i profilu dostawcy.",
+    "Nowe funkcje nie przeszły testów funkcjonalnych na życzenie właściciela."
+  ],
+  "responsible_provider": {
+    "status": "unassigned",
+    "organization": null
+  },
+  "mentor_clarifications": {
+    "problem": "Dane rozproszone i niezweryfikowane; potrzebny odpowiedzialny dostawca zbioru.",
+    "campaign": "Logotyp i hasło mają zachęcać potencjalnych dostawców do udostępniania danych w dane.gov.pl.",
+    "portal": "Publikacja przez uprawnionego dostawcę, bez zmiany mechaniki portalu."
+  }
+}

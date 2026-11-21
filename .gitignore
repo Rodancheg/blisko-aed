@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+.openai/
+.presentation-build/
+*.log
+collector/progress.sqlite3*
+collector/worker.lock
+collector/worker.log
+collector/status.json
+collector/results/
+runtime/
+
+outputs/
+
+# Municipal pilot: redistribution terms still require confirmation.
+data-model/snapshots/bydgoszcz-municipal-*.kml
+data-model/pilots/bydgoszcz/municipal.*

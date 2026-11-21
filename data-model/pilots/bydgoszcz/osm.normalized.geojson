@@ -1,0 +1,5902 @@
+{
+  "type": "FeatureCollection",
+  "administrative_area": {
+    "country": "PL",
+    "voivodeship": "kujawsko-pomorskie",
+    "gmina": "Bydgoszcz",
+    "gmina_type": "miejska",
+    "terc": "0461011",
+    "terc_reference": "https://bdl.stat.gov.pl/bdl/dane/teryt/jednostka/933",
+    "boundary_source": "https://www.openstreetmap.org/relation/358688",
+    "boundary_admin_level": "6",
+    "note": "Pilot uses the OSM city/powiat boundary, coextensive with the city municipality; the 7-digit gmina TERC comes from GUS, not from the 4-digit OSM powiat tag."
+  },
+  "license": {
+    "name": "ODbL-1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "imported_at": "2026-11-21T11:01:45.537389Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "7bccb25d-61a7-5ae1-84e3-f3e65561d467",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9949185,
+          53.1228981
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/2779606647",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": "10",
+        "location_city": "Bydgoszcz",
+        "location_description": "w ochronie budynku dostępny 24/7",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": "85-112",
+        "location_street": "Mennica",
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/2779606647",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "80ebe2c1-3cb4-5376-99ea-251db42b6e0e",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.013435,
+          53.1264839
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9103908455",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9103908455",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d45b1b3a-58b2-5768-9a12-553af3d00820",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9915783,
+          53.1352691
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9404563192",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Na ścianie w poczekalni między peronami 3 i 4, parter",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9404563192",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0d31a902-ec21-594c-8a1d-982c038ab5d2",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0173235,
+          53.124855
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9425631117",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Centrum Handlowe Focus - Biuro monitoringu ochrony (poziom 1)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9425631117",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fa3eb894-e76a-535d-aac0-48ddb74a1205",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1293825,
+          53.1500758
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529474560",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529474560",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f5dff6e7-b7a1-559a-a9d6-267421032444",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9990936,
+          53.1222155
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529479462",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "portiernia",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529479462",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fabe952a-a0cf-5d0e-b176-beced1c3cc8a",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0176706,
+          53.1373442
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529492231",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "samochód straży miejskiej",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529492231",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "44fd2d55-1434-5704-bb90-006af416ca77",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1612922,
+          53.1606853
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529493434",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529493434",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1a81b9cd-0e28-5f1d-968f-7cab344d407d",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9991138,
+          53.1198848
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529493435",
+        "device_access_description": "Mo-Fr 07:30-18:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529493435",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ecf4603e-aa79-5849-af47-bf50706c257b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9632337,
+          53.131982
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529522395",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529522395",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8d341735-b363-587e-a9e2-255a75f1a73b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0332078,
+          53.099981
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529528409",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529528409",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4d5cfbf8-dd4c-539d-9c81-8f66174cb4dc",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9933703,
+          53.1207742
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529529170",
+        "device_access_description": "Mo-Fr 08:00-16:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "portiernia",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529529170",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5eb45578-b7f0-5b8b-8e51-68d31913a6b5",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0311994,
+          53.1411453
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529538815",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "portiernia",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529538815",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f37f336d-42cb-5679-b506-25444a193b19",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9983829,
+          53.1125546
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529561004",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529561004",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "044df33f-81fd-598c-b430-b93d066b2b2b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.011504,
+          53.1328355
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529576373",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529576373",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "64ab888d-91de-57c0-ba04-5e2108ca262f",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0284078,
+          53.1230079
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529589649",
+        "device_access_description": "Mo-Su 07:00-16:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529589649",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "07c3ff9b-50bc-5aff-b004-d0814ed4bc92",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9580237,
+          53.1874531
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529598753",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529598753",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "80c05743-9c91-5d5c-8aa1-da1688a3c14d",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9575733,
+          53.1127928
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529611561",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "recepcja",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529611561",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4b7d87da-cda1-5d79-9c61-03eac01a172f",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0132914,
+          53.1136495
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529627730",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529627730",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8dc69983-59a6-58bd-a99a-e1b7422b6685",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1151621,
+          53.1365015
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529627766",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529627766",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b083aac7-d5ae-5de7-b00d-b36f175f30a9",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0146533,
+          53.113932
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529630756",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na dyżurce",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529630756",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e3a0430a-7bf2-59f7-9e10-b3e7a6541674",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.00249,
+          53.1106071
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529643559",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529643559",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "50966fb9-4659-54d1-a2a2-80192dd8d3ed",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0435991,
+          53.1033202
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529648833",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529648833",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4076eab9-da03-5fcc-8c38-9f915a6234ca",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.963318,
+          53.1194277
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529651954",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529651954",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "23c78cc7-7387-5730-8edb-8dba2d4fac7b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0378211,
+          53.1120424
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529655461",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529655461",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1733268c-5651-5bf3-963f-86e2f6f048e8",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0262842,
+          53.1194805
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529660842",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "ochrona",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529660842",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "27c808bf-9cf6-5d68-97bc-4c6287b3131c",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.957193,
+          53.1139413
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529660861",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529660861",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3e94dfb6-5fc6-5990-b22d-db71fb013c70",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0047575,
+          53.1243229
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529686345",
+        "device_access_description": "Mo-Fr 07:30-16:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "portiernia",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529686345",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "374e7a8f-d86f-54f4-8d59-c66fea72cb93",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0177568,
+          53.1371859
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529690017",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "dyżurka",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529690017",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8e3e4d96-e0f5-5342-a84d-7f8cce191cbe",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0224944,
+          53.1309624
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529690267",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "radiowóz",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529690267",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1b686f64-9c88-56b6-bd66-6fde74d5de90",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1756457,
+          53.1515418
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529700275",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529700275",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0dcb18a-0451-5ded-8e88-ddf518523482",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9954737,
+          53.1306166
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529700277",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529700277",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "afe77c58-f001-5eed-a0ba-a1ecb201cbcd",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9777916,
+          53.1450744
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529704742",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529704742",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ad00490f-68f4-5182-ae10-02e025f17704",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9526106,
+          53.1311578
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529706635",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Klub Sportowy Gwiazda",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529706635",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "71b50997-8efc-5842-9823-def3837a9ac4",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9894913,
+          53.1268131
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529706642",
+        "device_access_description": "Mo-Su 08:00-23:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529706642",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f01bba3e-80b8-51ac-8e04-904856d96fa0",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9639931,
+          53.136128
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529708750",
+        "device_access_description": "Mo-Su 07:00-18:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529708750",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "afdc7aee-9013-5ccd-939e-3e390d5f922a",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0023189,
+          53.1310644
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529708781",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529708781",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ee448730-e231-54df-9987-65ee084b81dd",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0232383,
+          53.1258918
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529710375",
+        "device_access_description": "Mo-Su 07:00-18:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529710375",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c1858083-8522-5f55-8a38-43d9ec627876",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0507521,
+          53.1270078
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529718471",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529718471",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ca25f672-7f0c-5d62-a7ae-2972d6ad2c9f",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0521806,
+          53.1084656
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529719167",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529719167",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "05af6bfb-346d-5140-b446-8c199d93697e",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9979836,
+          53.1244641
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529722239",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na dolnym foyerr, pomieszczenie ratownika medycznego",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529722239",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a4039186-8306-5b33-be5d-bc4bf2938463",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0119259,
+          53.1336297
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529731525",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529731525",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10c49108-7498-57f3-b839-f3092e166c7b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1175936,
+          53.1327428
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9529738096",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "przychodnia",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9529738096",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "919691dd-b7fc-5209-b015-638a3a3352dd",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9791998,
+          53.1305424
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9532443511",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9532443511",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "883b4c7c-726c-593a-8c8c-9e13d38e5ab0",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0320362,
+          53.0993418
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9555039917",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Wewnątrz  budynku Szkoły",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9555039917",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "57dbb96b-e7ac-571a-ac2c-aa3de9f777e7",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0031769,
+          53.1135921
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9568682417",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Przy punkcie informacji",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9568682417",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "428c2699-ea12-5938-af50-e883714c6696",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9960603,
+          53.1307535
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9687642452",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "za głównymi drzwiami po lewej stronie. Stróż może podać.",
+        "location_object_name": "Zarząd Dróg Wojewódzkich Bydgoszcz",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9687642452",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5e542555-6d67-5b4f-be5e-b8dcc59a0ef8",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9904719,
+          53.1197455
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9899492517",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "W budynku pompowni wody",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9899492517",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ff70e88e-ec3b-5ede-a09b-0de7cd648a45",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9917776,
+          53.1348726
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/9900146511",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Przy wejściu do tunelu z poczekalni na poziomie -1",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/9900146511",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2c554db3-c150-5f77-a74a-21dddea8068f",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0166894,
+          53.1268847
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/10577062541",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Ogrzewalnia u Miecia, bydgoska bazylika. Lewe skrzydło budynku, z tyłu od strony parkingu.",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/10577062541",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b35437d2-c1ad-5d58-b4a6-b8decde5ba97",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9554498,
+          53.1375073
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/10723444407",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/10723444407",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b33c774f-3f9d-50f8-a23e-f3eaedc2f1af",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.999627,
+          53.1128319
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/10723545705",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/10723545705",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fb35dd0c-2099-5999-9de3-24b72e784f27",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1562912,
+          53.1536277
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/10971057992",
+        "device_access_description": "Mo-Sa 06:30-22:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Defibrylator znajduje się obok wejścia do marketu, przy „Strefie Klienta” w szafkach z alarmem świetlno-dźwiękowym",
+        "location_object_name": "Carrefour",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/10971057992",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "883436df-f9f8-5cd8-834c-9f59f62de750",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.019559,
+          53.1310728
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11209575044",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Przy portierni w budynku głównym",
+        "location_object_name": "Uniwersytet Kazimierza Wielkiego",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11209575044",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ef770f15-8009-5c2d-8fc7-2041934e8370",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9999453,
+          53.1262569
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11301635299",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "PCK Bydgoszcz",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11301635299",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5f42f733-3ce5-53bb-bb89-35a177e2c6ac",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1368209,
+          53.132699
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11354499169",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Recepcja firmy FRoSTA",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11354499169",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7faee960-611b-5180-b67a-959d62127a6c",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0675669,
+          53.1159843
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11443017920",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": "Philips",
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "W zajezdni tramwajowej przy Toruńskiej",
+        "location_object_name": "Miejskie Zakłady Komunikacyjne w Bydgoszczy",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11443017920",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "401972ac-096e-5fda-b1b7-7f1e05f4aae3",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1706161,
+          53.1761672
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11443017921",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": "Philips",
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "W zajezdni na Pętli tramwajowej przy Bora- Komorowskiego",
+        "location_object_name": "Miejskie Zakłady Komunikacyjne w Bydgoszczy",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11443017921",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5b83f700-6928-5ab8-98cc-58f35bd42eab",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9847416,
+          53.1071329
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11443017922",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": "Philips",
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "W budynku dyspozytorni przy ul. Inowrocławskiej",
+        "location_object_name": "Miejskie Zakłady Komunikacyjne w Bydgoszczy",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11443017922",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "30d22600-27b0-5571-978c-db00727ddee1",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1316044,
+          53.1297664
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11503123969",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "ERPLAST SP. Z O.O.",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11503123969",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a4cd4237-8495-5e93-9d43-6dd5c4c79aaf",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0036251,
+          53.1238602
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11653917398",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz placówki - sala operacyjna",
+        "location_object_name": "Poczta Polska - UP Bydgoszcz 1",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11653917398",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0e605ce4-2f13-51b6-81a7-5775197a0eec",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1754394,
+          53.1513783
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11839397769",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Na zewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Rybaki 8 Bydgoszcz ",
+        "location_object_name": "ja ",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11839397769",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2b4e0bec-66d5-5927-9481-8abbe2fed6b0",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9969875,
+          53.117514
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11970516869",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Stokrotka",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11970516869",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a0a87ed1-1ce8-5635-bfc9-db7a79d5ad09",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9969847,
+          53.1174858
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/11970518169",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Stokrotka",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/11970518169",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0af7c99c-f838-5b86-ab9b-840956ce6912",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9931235,
+          53.1309881
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12026814733",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "private",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Na terenie basenu",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12026814733",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "609e1422-77c6-5385-8400-b11ff8e26da6",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9688243,
+          53.1215009
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12053109046",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "w kruchcie kościoła po lewej stronie",
+        "location_object_name": "Parafia pw. Chrystusa Króla",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12053109046",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "313fd756-52ad-5d9b-a45a-7650ef478e7b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.984661,
+          53.113809
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12071954325",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "po prawej stronie, zaraz przy głównym wejściu",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12071954325",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4b19b2ab-e13a-5568-a753-55324a84a113",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.077322,
+          53.0949989
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12092838401",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "ROHLIG SUUS Logistics S.A. Oddział Bydgoszcz",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12092838401",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "61362231-8bef-5496-8c10-3d99e947590b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0429259,
+          53.1345411
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12101068774",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "recepcja",
+        "location_object_name": "ALSTAL",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12101068774",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "724f6421-a56a-59f8-8bda-00c93f3703f4",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9576376,
+          53.1157796
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12121080151",
+        "device_access_description": "Mo-Fr 06:30-14:30; Sa-Su off; PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "przy wejściu do budynku A, obok portierni",
+        "location_object_name": "Komunalne Przedsiębiorstwo Energetyki Cieplnej Spółka z o.o.",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12121080151",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5e80ccce-7956-5714-995f-ff7371a3e596",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.903614,
+          53.143956
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12121080156",
+        "device_access_description": "Mo-Fr 06:30-14:30; Sa-Su off; PH off",
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "przy wejściu do budynku ciepłowni, część biurowa",
+        "location_object_name": "Komunalne Przedsiębiorstwo Energetyki Cieplnej Spółka z o.o.",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12121080156",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f80a692f-684b-5f71-9dfd-927a94f43a49",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1576886,
+          53.1488149
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12127958924",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12127958924",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0ca6d021-53d6-5b86-b47c-10c15e03c676",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0484049,
+          53.1295231
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12231928146",
+        "device_access_description": "Mo-Fr 06:30-20:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "przy wejściu do szkoły, przy dyżurce woźnego",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12231928146",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9bd1ccbb-f982-5e82-bf59-d4d2e8259ea1",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1108549,
+          53.1465083
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12299404654",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz na wprost wejścia , lewa strona przy windzie",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12299404654",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18ff7046-a4e7-5e49-95fd-d5d203964933",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0132911,
+          53.1311673
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12324711253",
+        "device_access_description": "Mo-Fr 06:00-19:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "korytarz",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12324711253",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2b89ba5a-7604-53f1-be47-9d6c1e4d6da4",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.996195,
+          53.1267118
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12328844504",
+        "device_access_description": "May-Oct Mo-Fr 07:00-19:00; May-Oct Sa-Su 09:00-19:00; Nov-Apr Mo-Su 07:00-19:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "sterownia",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12328844504",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a84fd98a-a6d3-534b-9ead-593f3dc17e59",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9101736,
+          53.1470393
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12373085003",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Stora Enso. W biurze kierownika zakładu",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12373085003",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "91d0467c-fa59-5659-ae71-df2d17aceae0",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.071452,
+          53.1162684
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12507805801",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "oddział przeniesiony - brak pod tym adresem",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12507805801",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b6848d3a-82ab-5506-836f-33d3e3483eb5",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0640607,
+          53.1210354
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12529177101",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Na ścianie w wejściu do szkoły.",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12529177101",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b936686d-84d8-5333-bb16-74bea415a449",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9981228,
+          53.1341998
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12565355466",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "W holu biurowca po prawej stronie",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12565355466",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5d0a2fad-804c-5800-8f7d-fa9a723e63de",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0023692,
+          53.1128819
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12570907486",
+        "device_access_description": "Mo 08:00-17:00; Tu-Fr 08:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Sala Obsługi Klientów, pokój 10 parter",
+        "location_object_name": "ZUS",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12570907486",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b5bd0501-7c1a-521a-b53f-dce57b41eff5",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9962293,
+          53.1182788
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12572484892",
+        "device_access_description": "Mo-Fr 07:00-15:30",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "w przedsionku",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12572484892",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6a365fb8-0259-5594-910b-03797f19708a",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0009955,
+          53.1340561
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12599069192",
+        "device_access_description": "Mo-Fr 07:00-15:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "korytarz",
+        "location_object_name": "Główny Inspektorat Transportu Drogowego",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12599069192",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b75d9dcc-ffe7-5896-b3ad-063032207a20",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.022337,
+          53.1478856
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12599171932",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na korytarzu, blisko wyjścia",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12599171932",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fb6ba399-960e-5a43-854d-9bcd26daeb8c",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9968918,
+          53.1121457
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12603655195",
+        "device_access_description": "Mo-Fr 08:00-20:00; Sa 08:00-14:00; Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz placówki - sala operacyjna",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12603655195",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fa52bd15-8146-5670-8a9a-ddf281b69533",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0377106,
+          53.1206104
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12605562803",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Hol wejścia głównego do budynku",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12605562803",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "444be6ec-0a1a-564a-a726-4cbd48f74ebe",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1008356,
+          53.1090703
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12605562804",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "sekretariat Naczelnika Wydziału",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12605562804",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "24059c7b-f0d4-5548-8c0e-a179de5c1eaf",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.020513,
+          53.1281288
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12608302943",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "przy portierni Biblioteki",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12608302943",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a212aead-8936-5301-96fa-be00bd2e8909",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.07039,
+          53.1285093
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12615596937",
+        "device_access_description": "Mo-Fr 07:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "pomieszczenie za stanowiskiem ochrony",
+        "location_object_name": "Urząd Dozoru Technicznego",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12615596937",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "147ba435-f0a3-51a2-95aa-7b5e60788ed4",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0110553,
+          53.1312559
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12616109650",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "foyer małej sceny",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12616109650",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f15bc7c1-c906-5515-8e5a-7b2a93f688be",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9888656,
+          53.1249807
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12626413798",
+        "device_access_description": "Mo 08:00-17:00; Tu-Fr 08:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Sala Obsługi Klientów, pokój 24 parter",
+        "location_object_name": "ZUS",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12626413798",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f7a8b710-fcfb-5cf4-8e3c-b09e675a04b5",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1456498,
+          53.1499607
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12626413799",
+        "device_access_description": "Mo 08:00-17:00; Tu-Fr 08:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Portiernia parter - Sala Obsługi Klientów, pokój 22",
+        "location_object_name": "ZUS",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12626413799",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "95e2b3bb-92df-5d62-bbe0-46ae18a095a6",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.002228,
+          53.1193725
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12636007197",
+        "device_access_description": "Mo-Fr 08:00-16:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Najwyższa Izba Kontroli",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12636007197",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fcce1cea-b688-5fde-8874-9bf31c99c8e1",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1643608,
+          53.1719904
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12643330501",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Komisariat Policji Bydgoszcz-Fordon (wejście główne, Dyżurka)",
+        "location_object_name": "Komisariat Policji Bydgoszcz-Fordon",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12643330501",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f61c421b-fc13-55d3-9d1e-28606290070c",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0209792,
+          53.1261893
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12649683901",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Na ścianie przy wejściu",
+        "location_object_name": "UKW - Instytut Filozofii / Kolegium II",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12649683901",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0924fb3f-1f3a-5fd4-a74a-08334849aa4d",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0257932,
+          53.1241485
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12674346184",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz budynku - na parterze, na wprost głównych drzwi wejściowych, obok pomieszczenia biura obsługi klienta",
+        "location_object_name": "Archiwum Państwowe",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12674346184",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f49d76f3-bd0e-59e8-9dd5-2fb7ad1def19",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0283063,
+          53.1287243
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12676589901",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Apteka Prima - na lewo od wejścia do apteki",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12676589901",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e9eb2f12-e8e6-52e1-a128-91a887d2635b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0586545,
+          53.1206285
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12685859620",
+        "device_access_description": "Mo-Fr 07:30-15:30; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na parterze przy wyjściu ewakuacyjnym",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12685859620",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6c1945dd-ee00-52d2-ad53-289ceb2a4b8f",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0295332,
+          53.1241505
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686602602",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Dom Studenta nr 2 \"Atomek\", przy Portierni",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686602602",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a5465585-b7a5-5e03-9bf9-49e79268e903",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0302355,
+          53.1238331
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686619401",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Dom Studenta nr 1 \"Romek\" (Hol główny)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686619401",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7c62938c-71aa-516d-9ca5-ff44dab6e099",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1609603,
+          53.165763
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686633501",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Apteka Dr. Max (po prawej stronie od wejścia)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686633501",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8cffb71d-755c-51ee-b194-9e667f58c2f9",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1565247,
+          53.1595715
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686638701",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Stacja Orlen (po prawej stronie od wejścia)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686638701",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51182046-dddd-5306-bd75-e2cf2e052019",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1616766,
+          53.1645311
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686641401",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Sklep Aldi - ul. Pelplińska (przy kasach)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686641401",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d316c8bc-4857-5e27-ada3-047872792469",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1615654,
+          53.1610208
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686643301",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Apteka Minerwa (za ladą po prawej stronie)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686643301",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "91dcbdd3-a20d-588e-b0e5-1eedf13ea420",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0282331,
+          53.1261978
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686643302",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Apteka Alba (na lewo od wejścia)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686643302",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c7021db8-3308-5589-8fbc-648768d4e534",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1548598,
+          53.1579639
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686643303",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Galeria Fordon (wejście od strony sklepu Kaufland)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686643303",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2e82250b-cac7-56c3-8727-f24425173a3b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0337907,
+          53.134192
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686671301",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "XI Liceum Mistrzostwa Sportowego (portiernia po lewej stronie od wejścia głównego)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686671301",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d779e981-ff4c-59a8-9fc6-430114f7fbb8",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0239679,
+          53.1307622
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686675401",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Uniwersytet Kazimierza Wielkiego Wydział Historyczny (hol wejściowy, naprzeciw windy)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686675401",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f6d74675-b4b5-554b-82d9-2b315f427a70",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0224961,
+          53.1238409
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686700901",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Szkoła Podstawowa Nr 31 (przy Portierni)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686700901",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5f1bfcd9-acf1-59b1-9c96-8f19b0cfdbb9",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1564877,
+          53.1658056
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12686701901",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Na prawo od wejścia głównego",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12686701901",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "424bce45-4b09-57ed-bc0f-2703c8e9be6e",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0173135,
+          53.1248353
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12698737143",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Centrum Handlowe Focus - Biuro monitoringu ochrony (poziom 1)",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12698737143",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0d360b9-db4c-587a-9160-dc39b531c99f",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0226502,
+          53.1312144
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12709398300",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na dyżurce",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12709398300",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "87b134ab-11e3-57e8-9fbc-8b1590873c1a",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0230478,
+          53.1297855
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12709413201",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na dyżurce",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12709413201",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "849ecae2-d241-5a56-8668-4eb8ab9baf58",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0361078,
+          53.11243
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12709413202",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na dyżurce",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12709413202",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8950e002-05cd-5b87-bf09-f34172252768",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9641053,
+          53.119751
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12709413203",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "w korytarzu, przy dyżurce",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12709413203",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069cd6e5-e4f3-5d04-af92-7ad38255dbd7",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.975704,
+          53.1188557
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12762065464",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Kujawsko-Pomorski Urząd Wojewódzki",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12762065464",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a0c7ed22-d9b3-5a57-ac93-247e49febc31",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9530141,
+          53.1299944
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/12782423697",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Na zewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Defibrylator znajduje się na bramie wjazdowej firmy P.W. Widlak Serwis wózków widłowych",
+        "location_object_name": "P.W. Widlak Serwis wózków widłowych",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/12782423697",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c1f9f62f-12a1-530a-be1c-6b6ad8c31023",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1308949,
+          53.1430674
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13022673366",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na ścianie przy wejsciu",
+        "location_object_name": "Politechnika Bydgoska",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13022673366",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b3f88416-978e-5e4b-a8dc-b2771a3e13c7",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0062561,
+          53.1240308
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13181246554",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13181246554",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18c6af0e-718a-5859-8fe4-0530fa49fc83",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9587308,
+          53.1158922
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13254687322",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz budynku, w pobliżu wejścia głównego",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13254687322",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5c8a06e5-8d66-5463-b9de-66314feca136",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9995807,
+          53.1225119
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13254687324",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz budynku, w pobliżu wejścia głównego",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13254687324",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3cc9dfd4-190b-5ff0-a96e-123d68d74c51",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9983134,
+          53.1226612
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13254687325",
+        "device_access_description": "Mo-Sa 06:00-22:00; Sa 06:00-16:00",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz budynku, w pobliżu wejścia głównego",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13254687325",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0cba95c-4655-553c-b052-b1ce64ada588",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9976586,
+          53.1198269
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13254687327",
+        "device_access_description": "24/7",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "yes",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "wewnątrz budynku, w pobliżu wejścia głównego",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": "24/7",
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13254687327",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ffba806e-d843-5e98-a1f1-e635c5ba0fd8",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1292,
+          53.09324
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13284849003",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "HANPLAST - Przy wejściu głównym na halę produkcyjną",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13284849003",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b273651b-4e43-5028-b289-5e851361071f",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1318033,
+          53.0847387
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13284852401",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": null,
+        "device_manufacturer": null,
+        "device_public_access": null,
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": null,
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13284852401",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9f3ae893-003e-5dcc-848a-a4a74f669110",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0561014,
+          53.0954024
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13284858701",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "HANPLAST - BIURO, PRZY GŁÓWNYM WEJŚCIU NA HALĘ PRODUKCYJNĄ",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13284858701",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8f775cc8-7f7e-5ee2-b2f3-6679efbe264e",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0356348,
+          53.1311618
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13300621208",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "na wprost recepcji na parterze",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13300621208",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "36f6472c-ba28-5d1c-a745-8f4b631b4e90",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.032385,
+          53.1246805
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13324620941",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "w budynku szkoły",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13324620941",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d7fd917b-427c-51dd-bb09-e2d7ac25798b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0746187,
+          53.0882606
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13353419104",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Korytarz po prawej stronie. Potrzebna karta dostępu.",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13353419104",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e33cac1a-57f3-52ed-85a6-bac787b127bf",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0723384,
+          53.0884224
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13658935001",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Hala Non Food Strefa Biurowa B",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13658935001",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7f10263b-d64e-52ea-8232-4129b91b9e8b",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0525155,
+          53.1209231
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13675208726",
+        "device_access_description": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Parter – sala obsługi",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13675208726",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "98997cc4-4512-5d07-b2e0-b16dafdb0670",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0434249,
+          53.1070221
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13675208727",
+        "device_access_description": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Parter – sala obsługi",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13675208727",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f7a24e16-3b20-5bc3-9227-93ad4286ac2a",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9974054,
+          53.1275999
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13675208733",
+        "device_access_description": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Parter – hol główny",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13675208733",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2e2855ae-aa66-5e56-9e4c-552c92a0dcf5",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9809834,
+          53.129395
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13675208740",
+        "device_access_description": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Parter – hol główny",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13675208740",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4fad177d-e56a-541a-9ba8-b641ad729359",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1339326,
+          53.1331494
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13735461201",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Abramczyk ",
+        "location_object_name": "Martyna Chantkowska ",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13735461201",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d4eae4a3-4902-5c19-a4a8-82502b2dc812",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.134702,
+          53.1325424
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13735463501",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Abramczyk ",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13735463501",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7931c9db-8d5b-5c04-a438-8e8c82caf968",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1347871,
+          53.1336717
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13735463502",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "customers",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Abramczyk",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13735463502",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8d4be72b-ce72-5fca-ae63-5db84126587c",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1563663,
+          53.1566873
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13770326901",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Na ścianie przy punkcie informacji.",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13770326901",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0e155754-a00c-50d8-a7a9-aae7e8fa707d",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0390497,
+          53.1072965
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/13887689801",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Przy punkcie informacji.",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/13887689801",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "80f6a5a6-20f4-5f68-8bda-3d7881b7dfab",
+      "schema_version": "0.1.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0689436,
+          53.0885516
+        ]
+      },
+      "properties": {
+        "defibrillator_id": "node/14119372601",
+        "device_access_description": null,
+        "device_availability": null,
+        "device_location": "Wewnątrz budynku",
+        "device_manufacturer": null,
+        "device_public_access": "permit",
+        "device_specifications": null,
+        "location_building": null,
+        "location_city": "Bydgoszcz",
+        "location_description": "Centrum Dystrybucyjne Kaufland ul. Petersona 4B Bydgoszcz Hala Non-Food przy akumulatorowni",
+        "location_object_name": "Defibrylator AED",
+        "location_postcode": null,
+        "location_street": null,
+        "opening_hours": null,
+        "opening_hours_timezone": "Europe/Warsaw",
+        "device_operational_status": "unknown"
+      },
+      "provenance": [
+        {
+          "source_id": "osm.pl.aed",
+          "source_record_id": "node/14119372601",
+          "source_updated_at": null,
+          "imported_at": "2026-11-21T11:01:45.537389Z"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "last_verified_at": null
+      }
+    }
+  ]
+}

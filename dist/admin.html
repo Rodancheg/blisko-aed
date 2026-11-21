@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><!--ADMIN_TITLE--> — Blisko AED</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/admin.css"><link rel="stylesheet" href="/submissions.css"><link rel="stylesheet" href="/admin-shell.css">
+</head>
+<body class="admin-shell" data-admin-section="<!--ADMIN_SECTION-->">
+<svg width="0" height="0" class="admin-symbols" aria-hidden="true"><defs>
+<symbol id="admin-map-icon" viewBox="0 0 24 24"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Zm6-2v16m6-14v16"/></symbol>
+<symbol id="admin-pin-icon" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="admin-message-icon" viewBox="0 0 24 24"><path d="M20 15a3 3 0 0 1-3 3H9l-5 3V6a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v9Z"/><path d="M8 8h8M8 12h5"/></symbol>
+<symbol id="admin-copy-icon" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h4"/></symbol>
+<symbol id="admin-data-icon" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0"/></symbol>
+</defs></svg>
+<header class="admin-topbar"><div class="admin-topbar-left"><button type="button" id="menuToggle" class="menu-toggle" aria-label="Otwórz menu panelu" aria-expanded="false" aria-controls="adminDrawer"><svg class="admin-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><a class="brand" href="/"><span class="brandicon">♥<i>ϟ</i></span><span>blisko<span class="brand-light">AED</span><small>Panel administratora</small></span></a></div><div class="admin-topbar-right"><a class="public-app-link" href="/">Otwórz aplikację</a><div id="adminAuth" class="admin-session" aria-label="Sesja administratora"></div></div></header>
+<button type="button" id="menuBackdrop" class="menu-backdrop" aria-label="Zamknij menu" hidden></button>
+<aside id="adminDrawer" class="admin-drawer" aria-label="Menu panelu" aria-hidden="true"><div class="drawer-caption">Zarządzanie danymi</div><nav aria-label="Sekcje panelu">
+<a href="/admin/map" data-section="coverage"><svg class="admin-icon" aria-hidden="true"><use href="#admin-map-icon"/></svg><span><strong>Mapa pokrycia</strong><small>Strefy bez znanych AED</small></span></a>
+<a href="/admin/new" data-section="proposals" id="moderationBtn"><svg class="admin-icon" aria-hidden="true"><use href="#admin-pin-icon"/></svg><span><strong>Nowe AED</strong><small>Kolejka propozycji</small></span><b id="draftCount">0</b></a>
+<a href="/admin/reports" data-section="reports"><svg class="admin-icon" aria-hidden="true"><use href="#admin-message-icon"/></svg><span><strong>Uwagi i zgłoszenia</strong><small>Poprawki i problemy</small></span><b id="reportCount">0</b></a>
+<a href="/admin/duplicates" data-section="duplicates" id="duplicatesBtn"><svg class="admin-icon" aria-hidden="true"><use href="#admin-copy-icon"/></svg><span><strong>Duplikaty</strong><small>Porównanie i decyzje</small></span></a>
+<a href="/admin/data" data-section="data"><svg class="admin-icon" aria-hidden="true"><use href="#admin-data-icon"/></svg><span><strong>Dane i import</strong><small>Miasta, źródła, pobieranie</small></span></a>
+</nav><div class="drawer-footer"><span>Blisko AED · prototyp</span><p>Zmiany w rejestrze wymagają zatwierdzenia administratora.</p></div></aside>
+<main class="admin-page admin-main">
+<div class="admin-heading"><div><div class="eyebrow">CENTRUM DANYCH</div><h1 id="adminTitle"><!--ADMIN_TITLE--></h1><p id="adminDescription"><!--ADMIN_DESCRIPTION--></p></div><a class="admin-primary" id="addButton" href="/admin/map?add=1">Dodaj AED</a></div>
+<section class="area-filter" aria-label="Filtrowanie po mieście"><label for="citySearch">Szukaj miasta lub gminy<input type="search" id="citySearch" placeholder="Np. Bydgoszcz"></label><label for="cityFilter">Wybrany obszar<select id="cityFilter"><option value="">Wszystkie obszary</option></select></label><div class="area-filter-note"><span id="citySummary">Ładowanie listy obszarów…</span><button type="button" id="refreshAreas">Odśwież listę</button></div></section>
+<!--ADMIN_CONTENT-->
+<div hidden><div id="draftList"></div><div id="reportList"></div></div>
+</main>
+<!--ADMIN_SCRIPTS-->
+</body></html>

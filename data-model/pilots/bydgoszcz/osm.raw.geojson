@@ -1,0 +1,2833 @@
+{
+  "type": "FeatureCollection",
+  "administrative_area": {
+    "country": "PL",
+    "voivodeship": "kujawsko-pomorskie",
+    "gmina": "Bydgoszcz",
+    "gmina_type": "miejska",
+    "terc": "0461011",
+    "terc_reference": "https://bdl.stat.gov.pl/bdl/dane/teryt/jednostka/933",
+    "boundary_source": "https://www.openstreetmap.org/relation/358688",
+    "boundary_admin_level": "6",
+    "note": "Pilot uses the OSM city/powiat boundary, coextensive with the city municipality; the 7-digit gmina TERC comes from GUS, not from the 4-digit OSM powiat tag."
+  },
+  "license": {
+    "name": "ODbL-1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "imported_at": "2026-11-21T11:01:45.537389Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9949185,
+          53.1228981
+        ]
+      },
+      "properties": {
+        "ref": "85-112",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 2779606647,
+        "@osm_type": "node",
+        "addr:city": "Bydgoszcz",
+        "emergency": "defibrillator",
+        "addr:street": "Mennica",
+        "source:addr": "EMUiA (emuia.gugik.gov.pl)",
+        "@osm_version": 2,
+        "addr:postcode": "85-112",
+        "addr:housenumber": "10",
+        "defibrillator:location": "w ochronie budynku dostępny 24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.013435,
+          53.1264839
+        ]
+      },
+      "properties": {
+        "indoor": "yes",
+        "@osm_id": 9103908455,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9915783,
+          53.1352691
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 9404563192,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "wheelchair": "yes",
+        "@osm_version": 3,
+        "opening_hours": "24/7",
+        "defibrillator:location": "Na ścianie w poczekalni między peronami 3 i 4, parter",
+        "defibrillator:location:en": "On the wall in the waiting room between platforms 3 and 4, ground floor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0173235,
+          53.124855
+        ]
+      },
+      "properties": {
+        "phone": "+48532792551",
+        "access": "yes",
+        "@osm_id": 9425631117,
+        "location": "indoor",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 3,
+        "defibrillator:location": "Centrum Handlowe Focus - Biuro monitoringu ochrony (poziom 1)",
+        "defibrillator:location:en": "Security office (first floor)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1293825,
+          53.1500758
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529474560,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9990936,
+          53.1222155
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 9529479462,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "portiernia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0176706,
+          53.1373442
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "@osm_id": 9529492231,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "samochód straży miejskiej"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1612922,
+          53.1606853
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529493434,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9991138,
+          53.1198848
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529493435,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 07:30-18:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9632337,
+          53.131982
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529522395,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0332078,
+          53.099981
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529528409,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9933703,
+          53.1207742
+        ]
+      },
+      "properties": {
+        "indoor": "yes",
+        "@osm_id": 9529529170,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 3,
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "defibrillator:location": "portiernia",
+        "defibrillator:location:en": "concierge's lodge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0311994,
+          53.1411453
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 9529538815,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "portiernia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9983829,
+          53.1125546
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "@osm_id": 9529561004,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.011504,
+          53.1328355
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "@osm_id": 9529576373,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0284078,
+          53.1230079
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529589649,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Su 07:00-16:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9580237,
+          53.1874531
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529598753,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9575733,
+          53.1127928
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529611561,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "recepcja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0132914,
+          53.1136495
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529627730,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1151621,
+          53.1365015
+        ]
+      },
+      "properties": {
+        "fixme": "dokładne położenie",
+        "indoor": "yes",
+        "@osm_id": 9529627766,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0146533,
+          53.113932
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "source": "email od KMP",
+        "@osm_id": 9529630756,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "opening_hours": "24/7",
+        "defibrillator:location": "na dyżurce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.00249,
+          53.1106071
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529643559,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0435991,
+          53.1033202
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "@osm_id": 9529648833,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.963318,
+          53.1194277
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529651954,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0378211,
+          53.1120424
+        ]
+      },
+      "properties": {
+        "@osm_id": 9529655461,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0262842,
+          53.1194805
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529660842,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "ochrona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.957193,
+          53.1139413
+        ]
+      },
+      "properties": {
+        "@osm_id": 9529660861,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0047575,
+          53.1243229
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529686345,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 07:30-16:00",
+        "defibrillator:location": "portiernia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0177568,
+          53.1371859
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "@osm_id": 9529690017,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "dyżurka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0224944,
+          53.1309624
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "@osm_id": 9529690267,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "radiowóz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1756457,
+          53.1515418
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529700275,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9954737,
+          53.1306166
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529700277,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9777916,
+          53.1450744
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529704742,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9526106,
+          53.1311578
+        ]
+      },
+      "properties": {
+        "@osm_id": 9529706635,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Klub Sportowy Gwiazda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9894913,
+          53.1268131
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529706642,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Su 08:00-23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9639931,
+          53.136128
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529708750,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Su 07:00-18:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0023189,
+          53.1310644
+        ]
+      },
+      "properties": {
+        "@osm_id": 9529708781,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0232383,
+          53.1258918
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529710375,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Su 07:00-18:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0507521,
+          53.1270078
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529718471,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0521806,
+          53.1084656
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529719167,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9979836,
+          53.1244641
+        ]
+      },
+      "properties": {
+        "indoor": "yes",
+        "@osm_id": 9529722239,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 3,
+        "defibrillator:location": "na dolnym foyerr, pomieszczenie ratownika medycznego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0119259,
+          53.1336297
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529731525,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1175936,
+          53.1327428
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9529738096,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "przychodnia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9791998,
+          53.1305424
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9532443511,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0320362,
+          53.0993418
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9555039917,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Wewnątrz  budynku Szkoły"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0031769,
+          53.1135921
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 9568682417,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2026-05-27",
+        "@osm_version": 3,
+        "defibrillator:location": "Defibrylator AED w sklepie Kaufland.",
+        "defibrillator:location:pl": "Przy punkcie informacji"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9960603,
+          53.1307535
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 9687642452,
+        "operator": "Zarząd Dróg Wojewódzkich Bydgoszcz",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "defibrillator:location": "za głównymi drzwiami po lewej stronie. Stróż może podać."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9904719,
+          53.1197455
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 9899492517,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "W budynku pompowni wody"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9917776,
+          53.1348726
+        ]
+      },
+      "properties": {
+        "level": "-1",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 9900146511,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "wheelchair": "yes",
+        "@osm_version": 3,
+        "opening_hours": "24/7",
+        "defibrillator:location": "Przy wejściu do tunelu z poczekalni na poziomie -1",
+        "defibrillator:location:en": "Near entrance to the tunnel, in the waiting room at level -1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0166894,
+          53.1268847
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 10577062541,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Ogrzewalnia u Miecia, bydgoska bazylika. Lewe skrzydło budynku, z tyłu od strony parkingu."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9554498,
+          53.1375073
+        ]
+      },
+      "properties": {
+        "indoor": "yes",
+        "@osm_id": 10723444407,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.999627,
+          53.1128319
+        ]
+      },
+      "properties": {
+        "indoor": "yes",
+        "@osm_id": 10723545705,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1562912,
+          53.1536277
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "phone": "+48523269701",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 10971057992,
+        "operator": "Carrefour",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "defibrillator:location": "Defibrylator znajduje się obok wejścia do marketu, przy „Strefie Klienta” w szafkach z alarmem świetlno-dźwiękowym"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.019559,
+          53.1310728
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 11209575044,
+        "operator": "Uniwersytet Kazimierza Wielkiego",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Przy portierni w budynku głównym"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9999453,
+          53.1262569
+        ]
+      },
+      "properties": {
+        "fixme": "do uzupełnienia szczegóły położenia",
+        "@osm_id": 11301635299,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "PCK Bydgoszcz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1368209,
+          53.132699
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 11354499169,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 3,
+        "defibrillator:location": "Recepcja firmy FRoSTA",
+        "defibrillator:location:en": "FRoSTA Reception"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0675669,
+          53.1159843
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 11443017920,
+        "operator": "Miejskie Zakłady Komunikacyjne w Bydgoszczy",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "description": "Philips FRx Standard",
+        "@osm_version": 1,
+        "manufacturer": "Philips",
+        "defibrillator:location": "W zajezdni tramwajowej przy Toruńskiej"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1706161,
+          53.1761672
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 11443017921,
+        "operator": "Miejskie Zakłady Komunikacyjne w Bydgoszczy",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "description": "Philips FRx Standard",
+        "@osm_version": 1,
+        "manufacturer": "Philips",
+        "defibrillator:location": "W zajezdni na Pętli tramwajowej przy Bora- Komorowskiego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9847416,
+          53.1071329
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 11443017922,
+        "operator": "Miejskie Zakłady Komunikacyjne w Bydgoszczy",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "description": "Philips FRx Standard",
+        "@osm_version": 1,
+        "manufacturer": "Philips",
+        "defibrillator:location": "W budynku dyspozytorni przy ul. Inowrocławskiej"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1316044,
+          53.1297664
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 11503123969,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "defibrillator:location": "ERPLAST SP. Z O.O."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0036251,
+          53.1238602
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 11653917398,
+        "operator": "Poczta Polska - UP Bydgoszcz 1",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "opening_hours": "24/7",
+        "defibrillator:location": "wewnątrz placówki - sala operacyjna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1754394,
+          53.1513783
+        ]
+      },
+      "properties": {
+        "phone": "+48 881 772 916",
+        "access": "yes",
+        "indoor": "no",
+        "@osm_id": 11839397769,
+        "operator": "ja ",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "defibrillator:location": "Rybaki 8 Bydgoszcz "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9969875,
+          53.117514
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 11970516869,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Stokrotka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9969847,
+          53.1174858
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 11970518169,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Stokrotka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9931235,
+          53.1309881
+        ]
+      },
+      "properties": {
+        "access": "private",
+        "indoor": "yes",
+        "@osm_id": 12026814733,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Na terenie basenu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9688243,
+          53.1215009
+        ]
+      },
+      "properties": {
+        "indoor": "yes",
+        "@osm_id": 12053109046,
+        "operator": "Parafia pw. Chrystusa Króla",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "w kruchcie kościoła po lewej stronie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.984661,
+          53.113809
+        ]
+      },
+      "properties": {
+        "indoor": "yes",
+        "@osm_id": 12071954325,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "po prawej stronie, zaraz przy głównym wejściu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.077322,
+          53.0949989
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 12092838401,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2024-08-05",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "ROHLIG SUUS Logistics S.A. Oddział Bydgoszcz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0429259,
+          53.1345411
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12101068774,
+        "operator": "ALSTAL",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "recepcja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9576376,
+          53.1157796
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12121080151,
+        "operator": "Komunalne Przedsiębiorstwo Energetyki Cieplnej Spółka z o.o.",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 06:30-14:30; Sa-Su off; PH off",
+        "defibrillator:location": "przy wejściu do budynku A, obok portierni"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.903614,
+          53.143956
+        ]
+      },
+      "properties": {
+        "fixme": "dokładna lokalizacja",
+        "access": "customers",
+        "@osm_id": 12121080156,
+        "operator": "Komunalne Przedsiębiorstwo Energetyki Cieplnej Spółka z o.o.",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 06:30-14:30; Sa-Su off; PH off",
+        "defibrillator:location": "przy wejściu do budynku ciepłowni, część biurowa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1576886,
+          53.1488149
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "@osm_id": 12127958924,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0484049,
+          53.1295231
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12231928146,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 06:30-20:00",
+        "defibrillator:location": "przy wejściu do szkoły, przy dyżurce woźnego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1108549,
+          53.1465083
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "source": "survey",
+        "@osm_id": 12299404654,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "addr:floor": "0",
+        "@osm_version": 2,
+        "defibrillator:location": "wewnątrz na wprost wejścia , lewa strona przy windzie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0132911,
+          53.1311673
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12324711253,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 06:00-19:00",
+        "defibrillator:location": "korytarz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.996195,
+          53.1267118
+        ]
+      },
+      "properties": {
+        "fixme": "dokładna lokalizacja",
+        "level": "1",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12328844504,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "May-Oct Mo-Fr 07:00-19:00; May-Oct Sa-Su 09:00-19:00; Nov-Apr Mo-Su 07:00-19:00",
+        "defibrillator:location": "sterownia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9101736,
+          53.1470393
+        ]
+      },
+      "properties": {
+        "phone": "+48 510 223 024",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 12373085003,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2024-11-25",
+        "@osm_version": 2,
+        "defibrillator:location:pl": "Stora Enso. W biurze kierownika zakładu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.071452,
+          53.1162684
+        ]
+      },
+      "properties": {
+        "phone": "+48 516 927 292",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12507805801,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-09-10",
+        "@osm_version": 2,
+        "defibrillator:location:pl": "oddział przeniesiony - brak pod tym adresem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0640607,
+          53.1210354
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "phone": "+48 52 342 03 38",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12529177101,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-01-24",
+        "@osm_version": 3,
+        "defibrillator:location:pl": "Na ścianie w wejściu do szkoły."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9981228,
+          53.1341998
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12565355466,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "description": "dostęp bezpośredni w godz. 6.00 – 18.00      (biurowiec otwarty), dostęp utrudniony w godz. 18.00 – 6.00 (biurowiec \nzamknięty - drzwi otwiera ochrona)",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "W holu biurowca po prawej stronie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0023692,
+          53.1128819
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "customers",
+        "indoor": "yes",
+        "source": "email od ZUS",
+        "@osm_id": 12570907486,
+        "operator": "ZUS",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "opening_hours": "Mo 08:00-17:00; Tu-Fr 08:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "Sala Obsługi Klientów, pokój 10 parter"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9962293,
+          53.1182788
+        ]
+      },
+      "properties": {
+        "image": "https://tiny.pl/0s-p5ydt",
+        "level": "0",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12572484892,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 07:00-15:30",
+        "defibrillator:location": "w przedsionku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0009955,
+          53.1340561
+        ]
+      },
+      "properties": {
+        "level": "3",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12599069192,
+        "operator": "Główny Inspektorat Transportu Drogowego",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 07:00-15:00",
+        "defibrillator:location": "korytarz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.022337,
+          53.1478856
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "customers",
+        "indoor": "yes",
+        "source": "email od AMW",
+        "@osm_id": 12599171932,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "na korytarzu, blisko wyjścia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9968918,
+          53.1121457
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12603655195,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00; Su, PH off",
+        "defibrillator:location": "wewnątrz placówki - sala operacyjna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0377106,
+          53.1206104
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12605562803,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "description": "strefa ograniczonego dostępu dla osób z zewnątrz",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "Hol wejścia głównego do budynku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1008356,
+          53.1090703
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12605562804,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "description": "strefa ograniczonego dostępu dla osób z zewnątrz",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "sekretariat Naczelnika Wydziału"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.020513,
+          53.1281288
+        ]
+      },
+      "properties": {
+        "image": "https://tiny.pl/y0zfygpp",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12608302943,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "przy portierni Biblioteki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.07039,
+          53.1285093
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12615596937,
+        "operator": "Urząd Dozoru Technicznego",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 07:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "pomieszczenie za stanowiskiem ochrony"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0110553,
+          53.1312559
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12616109650,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "foyer małej sceny"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9888656,
+          53.1249807
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "customers",
+        "indoor": "yes",
+        "source": "email od ZUS",
+        "@osm_id": 12626413798,
+        "operator": "ZUS",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo 08:00-17:00; Tu-Fr 08:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "Sala Obsługi Klientów, pokój 24 parter"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1456498,
+          53.1499607
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "customers",
+        "indoor": "yes",
+        "source": "email od ZUS",
+        "@osm_id": 12626413799,
+        "operator": "ZUS",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo 08:00-17:00; Tu-Fr 08:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "Portiernia parter - Sala Obsługi Klientów, pokój 22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.002228,
+          53.1193725
+        ]
+      },
+      "properties": {
+        "fixme": "dokładna lokalizacja",
+        "access": "customers",
+        "indoor": "yes",
+        "source": "email od NIK",
+        "@osm_id": 12636007197,
+        "operator": "Najwyższa Izba Kontroli",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 08:00-16:00; Sa-Su, PH off"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1643608,
+          53.1719904
+        ]
+      },
+      "properties": {
+        "image": "https://openaedmap.org/api/v1/photos/view/7XxOdxK48bKYUbC455CuOA.webp",
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12643330501,
+        "operator": "Komisariat Policji Bydgoszcz-Fordon",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-07",
+        "@osm_version": 3,
+        "image:license": "CC0",
+        "opening_hours": "24/7",
+        "defibrillator:location": "wejście główne, Dyżurka",
+        "defibrillator:location:pl": "Komisariat Policji Bydgoszcz-Fordon (wejście główne, Dyżurka)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0209792,
+          53.1261893
+        ]
+      },
+      "properties": {
+        "name": "UKW - Instytut Filozofii / Kolegium II",
+        "image": "https://openaedmap.org/api/v1/photos/view/VQVHU3Ubom54aQXVpGwo1w.webp",
+        "level": "0",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 12649683901,
+        "operator": "UKW - Instytut Filozofii / Kolegium II",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-10",
+        "@osm_version": 6,
+        "image:license": "CC0",
+        "opening_hours": "24/7",
+        "defibrillator:location": "przy portierni (od wejścia głównego po prawej stronie)",
+        "defibrillator:location:pl": "Na ścianie przy wejściu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0257932,
+          53.1241485
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "source": "email od archiwum",
+        "@osm_id": 12674346184,
+        "operator": "Archiwum Państwowe",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "description": "Aby dostać się do głównego korytarza, należy skorzystać z domofonu i czekać na wpuszczenie przez pracownika ochrony.",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "wewnątrz budynku - na parterze, na wprost głównych drzwi wejściowych, obok pomieszczenia biura obsługi klienta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0283063,
+          53.1287243
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12676589901,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-18",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Apteka Prima - na lewo od wejścia do apteki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0586545,
+          53.1206285
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 12685859620,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Fr 07:30-15:30; Sa-Su, PH off",
+        "defibrillator:location": "na parterze przy wyjściu ewakuacyjnym"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0295332,
+          53.1241505
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686602602,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Dom Studenta nr 2 \"Atomek\", przy Portierni"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0302355,
+          53.1238331
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686619401,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Dom Studenta nr 1 \"Romek\" (Hol główny)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1609603,
+          53.165763
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686633501,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Apteka Dr. Max (po prawej stronie od wejścia)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1565247,
+          53.1595715
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686638701,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 2,
+        "defibrillator:location:pl": "Stacja Orlen (po prawej stronie od wejścia)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1616766,
+          53.1645311
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686641401,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Sklep Aldi - ul. Pelplińska (przy kasach)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1615654,
+          53.1610208
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686643301,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Apteka Minerwa (za ladą po prawej stronie)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0282331,
+          53.1261978
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686643302,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Apteka Alba (na lewo od wejścia)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1548598,
+          53.1579639
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686643303,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Galeria Fordon (wejście od strony sklepu Kaufland)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0337907,
+          53.134192
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686671301,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "XI Liceum Mistrzostwa Sportowego (portiernia po lewej stronie od wejścia głównego)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0239679,
+          53.1307622
+        ]
+      },
+      "properties": {
+        "@osm_id": 12686675401,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Uniwersytet Kazimierza Wielkiego Wydział Historyczny (hol wejściowy, naprzeciw windy)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0224961,
+          53.1238409
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686700901,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Szkoła Podstawowa Nr 31 (przy Portierni)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1564877,
+          53.1658056
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12686701901,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-03-21",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Na prawo od wejścia głównego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0173135,
+          53.1248353
+        ]
+      },
+      "properties": {
+        "phone": "+48532792551",
+        "access": "yes",
+        "@osm_id": 12698737143,
+        "location": "indoor",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Centrum Handlowe Focus - Biuro monitoringu ochrony (poziom 1)",
+        "defibrillator:location:en": "Security office (first floor)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0226502,
+          53.1312144
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "source": "email od KMP",
+        "@osm_id": 12709398300,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "na dyżurce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0230478,
+          53.1297855
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "source": "email od KMP",
+        "@osm_id": 12709413201,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "na dyżurce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0361078,
+          53.11243
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "source": "email od KMP",
+        "@osm_id": 12709413202,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "na dyżurce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9641053,
+          53.119751
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "source": "email od KMP",
+        "@osm_id": 12709413203,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "w korytarzu, przy dyżurce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.975704,
+          53.1188557
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 12762065464,
+        "operator": "Kujawsko-Pomorski Urząd Wojewódzki",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9530141,
+          53.1299944
+        ]
+      },
+      "properties": {
+        "ref": "ul. Nakielska 165 85-350 Bydgoszcz",
+        "image": "https://openaedmap.org/api/v1/photos/view/EdqYHvGsWM1MnYyRg0nMQA.webp",
+        "phone": "+48 691230093",
+        "access": "yes",
+        "indoor": "no",
+        "@osm_id": 12782423697,
+        "operator": "P.W. Widlak Serwis wózków widłowych",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-04-24",
+        "start_date": "20250424",
+        "@osm_version": 5,
+        "image:license": "CC0",
+        "opening_hours": "24/7",
+        "defibrillator:location": "Defibrylator znajduje się na bramie wjazdowej firmy P.W. Widlak Serwis wózków widłowych"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1308949,
+          53.1430674
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 13022673366,
+        "operator": "Politechnika Bydgoska",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "na ścianie przy wejsciu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0062561,
+          53.1240308
+        ]
+      },
+      "properties": {
+        "fixme": "dokładna lokalizacja, godziny otwarcia",
+        "image": "https://cen.bydgoszcz.pl/dokumenty/zalaczniki/121/121-60922.jpg",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13181246554,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9587308,
+          53.1158922
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 13254687322,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "wewnątrz budynku, w pobliżu wejścia głównego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9995807,
+          53.1225119
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 13254687324,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "wewnątrz budynku, w pobliżu wejścia głównego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9983134,
+          53.1226612
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13254687325,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo-Sa 06:00-22:00; Sa 06:00-16:00",
+        "defibrillator:location": "wewnątrz budynku, w pobliżu wejścia głównego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9976586,
+          53.1198269
+        ]
+      },
+      "properties": {
+        "access": "yes",
+        "indoor": "yes",
+        "@osm_id": 13254687327,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "24/7",
+        "defibrillator:location": "wewnątrz budynku, w pobliżu wejścia głównego"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1292,
+          53.09324
+        ]
+      },
+      "properties": {
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 13284849003,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-11-06",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "HANPLAST - Przy wejściu głównym na halę produkcyjną"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1318033,
+          53.0847387
+        ]
+      },
+      "properties": {
+        "@osm_id": 13284852401,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-11-06",
+        "@osm_version": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0561014,
+          53.0954024
+        ]
+      },
+      "properties": {
+        "image": "https://openaedmap.org/api/v1/photos/view/usZRAa-Bd4D_qMvbErJ_JA.webp",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 13284858701,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-11-07",
+        "@osm_version": 3,
+        "image:license": "CC0",
+        "defibrillator:location:pl": "HANPLAST - BIURO, PRZY GŁÓWNYM WEJŚCIU NA HALĘ PRODUKCYJNĄ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0356348,
+          53.1311618
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13300621208,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "na wprost recepcji na parterze"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.032385,
+          53.1246805
+        ]
+      },
+      "properties": {
+        "fixme": "dokładna lokalizacja, godziny dostępności",
+        "image": "https://zsb.bydgoszcz.pl/pages/images/img_00105445_01_003d.jpg",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13324620941,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "w budynku szkoły"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0746187,
+          53.0882606
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "phone": "+48783133338",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 13353419104,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2025-12-04",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Korytarz po prawej stronie. Potrzebna karta dostępu."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0723384,
+          53.0884224
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "phone": "+48 523600699",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 13658935001,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2026-03-18",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Hala Non Food Strefa Biurowa B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0525155,
+          53.1209231
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13675208726,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "Parter – sala obsługi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0434249,
+          53.1070221
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13675208727,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "Parter – sala obsługi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9974054,
+          53.1275999
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13675208733,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "Parter – hol główny"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9809834,
+          53.129395
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13675208740,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "opening_hours": "Mo 06:00-18:00; Tu-Fr 06:00-15:00; Sa-Su, PH off",
+        "defibrillator:location": "Parter – hol główny"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1339326,
+          53.1331494
+        ]
+      },
+      "properties": {
+        "phone": "+48 609 280 004",
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13735461201,
+        "operator": "Martyna Chantkowska ",
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 2,
+        "defibrillator:location": "Abramczyk "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.134702,
+          53.1325424
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13735463501,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Abramczyk "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1347871,
+          53.1336717
+        ]
+      },
+      "properties": {
+        "access": "customers",
+        "indoor": "yes",
+        "@osm_id": 13735463502,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "@osm_version": 1,
+        "defibrillator:location": "Abramczyk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1563663,
+          53.1566873
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 13770326901,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2026-04-28",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Na ścianie przy punkcie informacji."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0390497,
+          53.1072965
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 13887689801,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2026-05-27",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Przy punkcie informacji."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0689436,
+          53.0885516
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "phone": "+48 523600699",
+        "access": "permit",
+        "indoor": "yes",
+        "@osm_id": 14119372601,
+        "@osm_type": "node",
+        "emergency": "defibrillator",
+        "check_date": "2026-08-24",
+        "@osm_version": 1,
+        "defibrillator:location:pl": "Centrum Dystrybucyjne Kaufland ul. Petersona 4B Bydgoszcz Hala Non-Food przy akumulatorowni"
+      }
+    }
+  ]
+}

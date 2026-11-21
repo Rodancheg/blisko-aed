@@ -1,0 +1,5 @@
+{
+  "snapshot": "data-model/snapshots/osm-poland-2026-11-21.geojson",
+  "interval_seconds": 10,
+  "max_attempts": 4
+}

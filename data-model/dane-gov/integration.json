@@ -1,0 +1,22 @@
+{
+  "status": "prepared_not_connected",
+  "schema_namespace": "urn:otwarte-dane:harvester:1.13",
+  "schema_url": "https://dane.gov.pl/static/xml/otwarte_dane_latest.xsd",
+  "schema_retrieved_on": "2026-11-21",
+  "sample_uses": "https://example.invalid",
+  "sample_status": "draft",
+  "required_for_connection": [
+    "Wyznaczenie organizacji, która przyjmie odpowiedzialność za zbiór wynikowy",
+    "Publiczny adres HTTPS aplikacji",
+    "Profil dostawcy w dane.gov.pl",
+    "Rejestracja źródła XML i uzgodnienie harmonogramu importu"
+  ],
+  "portal_registration_performed": false,
+  "xsd_validation_run": false,
+  "responsible_provider": {
+    "status": "unassigned",
+    "organization": null,
+    "label": "Nie wyznaczono"
+  },
+  "responsibility_note": "Wydawca źródła, administrator aplikacji i odpowiedzialny dostawca zbioru to różne role. Zapis ustawień nie potwierdza rejestracji w portalu."
+}

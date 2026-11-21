@@ -1,0 +1,64 @@
+{
+  "type": "Feature",
+  "id": "b4f2af4f-d084-5291-a507-ba75e3ae43f9",
+  "schema_version": "1.0.0",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.0148748892902,
+      52.2086170695684
+    ]
+  },
+  "properties": {
+    "defibrillator_id": "622",
+    "device_access_description": "Poniedziałek: godz. 8:00-18:00; Wtorek-Piątek: godz. 8:00-16:00",
+    "device_availability": "Ograniczona",
+    "device_location": "Wewnątrz budynku",
+    "device_manufacturer": "Medtronic",
+    "device_public_access": "Publiczny",
+    "device_specifications": "Nie",
+    "location_building": "25/27",
+    "location_city": "Warszawa",
+    "location_description": "Przy wejściu na półpiętrze.",
+    "location_object_name": "Urząd Dzielnicy Mokotów m.st. Warszawy",
+    "location_postcode": "02-517",
+    "location_street": "Rakowiecka",
+    "address": "Rakowiecka 25/27 02-517 Warszawa",
+    "access": "Publiczny · Ograniczona",
+    "device_operational_status": "unknown",
+    "opening_hours": null,
+    "opening_hours_timezone": "Europe/Warsaw"
+  },
+  "administrative_area": {
+    "country": "PL",
+    "terc": "1465011",
+    "name": "Warszawa"
+  },
+  "reference_scope": {
+    "country": "PL",
+    "terc": "1465011",
+    "name": "Warszawa"
+  },
+  "quality_flags": [],
+  "provenance": [
+    {
+      "source_id": "pl.warszawa.scb.aed",
+      "source_record_id": "622",
+      "source_url": "https://dane.um.warszawa.pl/pl/catalogue/7bc32ffc-c2ac-4d32-83c9-b6f7a0b38de8",
+      "source_updated_at": null,
+      "imported_at": "2026-11-21T10:37:05.055Z",
+      "checked_at": "2026-11-21T10:37:05.055Z",
+      "license": {
+        "name": "Creative Commons Attribution",
+        "url": null
+      }
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "last_verified_at": null
+  },
+  "source_ids": [
+    "warsaw/622"
+  ]
+}

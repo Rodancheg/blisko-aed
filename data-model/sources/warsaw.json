@@ -1,0 +1,51 @@
+{
+  "source_id": "pl.warszawa.scb.aed",
+  "title": "Lokalizacja defibryzatorów (AED)",
+  "provider": "Stołeczne Centrum Bezpieczeństwa",
+  "institution": "Urząd m.st. Warszawy",
+  "reference_scope": {
+    "country": "PL",
+    "city": "Warszawa",
+    "description": "Aktywne urządzenia AED na terenie Warszawy."
+  },
+  "catalogue_url": "https://dane.um.warszawa.pl/pl/catalogue/7bc32ffc-c2ac-4d32-83c9-b6f7a0b38de8",
+  "portal_resource_url": "https://api.dane.gov.pl/1.4/resources/2512040,lokalizacja-defibryzatorow-aed?lang=pl",
+  "portal_resource_id": "2512040",
+  "portal_dataset_id": "39512",
+  "api": {
+    "url": "https://dane.um.warszawa.pl/api/action/get_scb_lokalizacja_defibrylatorow",
+    "method": "POST",
+    "authorization": {
+      "header": "Authorization",
+      "required": true,
+      "server_secret_reference": "WARSAW_API_TOKEN"
+    },
+    "all_records_body": null,
+    "single_record_body_example": {
+      "defibrillator_id": "622"
+    },
+    "response": "Массив geometry + properties. attachment может возвращаться для запроса конкретного устройства.",
+    "point_coordinates_in_source": "[[longitude, latitude]]"
+  },
+  "declared_update_frequency": "P1D",
+  "license": {
+    "label": "Creative Commons Attribution",
+    "version": null,
+    "url": null,
+    "status": "Название подтверждено карточкой города; версия и точный URI требуют уточнения."
+  },
+  "portal_metadata": {
+    "data_date": "2025-10-10",
+    "modified": "2025-10-10T05:58:53Z",
+    "verified": "2026-11-03T10:48:30Z",
+    "created": "2025-10-10T05:58:53Z",
+    "format": "json"
+  },
+  "fetched_at": "2026-11-21T10:37:05.055000Z",
+  "notes": [
+    "Даты portal_metadata относятся к ресурсу/каталогу и не являются датами проверки каждого AED.",
+    "Периодичность P1D — заявление поставщика, а не доказательство ежедневного изменения каждого устройства.",
+    "Публичный пример запроса одного устройства не показывает заголовок Authorization, но таблица параметров требует токен; приложение передаёт его в обоих запросах.",
+    "API-токен и base64-фотографии не входят в общий открытый набор."
+  ]
+}

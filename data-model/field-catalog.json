@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0.0",
+  "fields": [
+    {
+      "name": "defibrillator_id",
+      "title": "ID w źródle",
+      "type": "text",
+      "description": "Wymagane. Trwały identyfikator AED, unikalny w obrębie źródła.",
+      "required": true
+    },
+    {
+      "name": "lat",
+      "title": "Szerokość geograficzna",
+      "type": "number",
+      "description": "Wymagane. WGS84, stopnie dziesiętne; dla Polski 49–55.",
+      "required": true
+    },
+    {
+      "name": "lon",
+      "title": "Długość geograficzna",
+      "type": "number",
+      "description": "Wymagane. WGS84, stopnie dziesiętne; dla Polski 14–25.",
+      "required": true
+    },
+    {
+      "name": "location_object_name",
+      "title": "Nazwa miejsca",
+      "type": "text",
+      "description": "Nazwa obiektu, w którym znajduje się AED.",
+      "required": false
+    },
+    {
+      "name": "location_street",
+      "title": "Ulica",
+      "type": "text",
+      "description": "Ulica lokalizacji AED.",
+      "required": false
+    },
+    {
+      "name": "location_building",
+      "title": "Numer budynku",
+      "type": "text",
+      "description": "Identyfikator tekstowy; zachowaj np. 25/27.",
+      "required": false
+    },
+    {
+      "name": "location_postcode",
+      "title": "Kod pocztowy",
+      "type": "text",
+      "description": "Kod jako tekst, np. 02-517.",
+      "required": false
+    },
+    {
+      "name": "location_city",
+      "title": "Miejscowość",
+      "type": "text",
+      "description": "Nazwa miejscowości; nie zastępuje kodu TERC gminy.",
+      "required": false
+    },
+    {
+      "name": "location_description",
+      "title": "Jak znaleźć AED",
+      "type": "text",
+      "description": "Wejście, piętro i dokładne położenie urządzenia.",
+      "required": false
+    },
+    {
+      "name": "device_access_description",
+      "title": "Godziny dostępu",
+      "type": "text",
+      "description": "Oryginalny opis godzin; nie oznacza potwierdzonej dostępności teraz.",
+      "required": false
+    },
+    {
+      "name": "device_availability",
+      "title": "Dostępność źródłowa",
+      "type": "text",
+      "description": "Oryginalna wartość źródła. Tak/Nie nie określa sprawności urządzenia.",
+      "required": false
+    },
+    {
+      "name": "device_public_access",
+      "title": "Warunki dostępu",
+      "type": "text",
+      "description": "Publiczny/prywatny lub opis ograniczeń.",
+      "required": false
+    },
+    {
+      "name": "device_location",
+      "title": "Położenie urządzenia",
+      "type": "text",
+      "description": "Wewnątrz / na zewnątrz i dodatkowy opis.",
+      "required": false
+    },
+    {
+      "name": "device_manufacturer",
+      "title": "Producent",
+      "type": "text",
+      "description": "Producent urządzenia.",
+      "required": false
+    },
+    {
+      "name": "device_specifications",
+      "title": "Specyfikacja źródłowa",
+      "type": "text",
+      "description": "Zachowaj wartość źródła bez nadawania jej niepotwierdzonego znaczenia.",
+      "required": false
+    },
+    {
+      "name": "device_operational_status",
+      "title": "Sprawność",
+      "type": "enum",
+      "description": "unknown, operational, out_of_service, decommissioned; domyślnie unknown.",
+      "required": false
+    },
+    {
+      "name": "source_updated_at",
+      "title": "Data zmiany źródła",
+      "type": "date-time",
+      "description": "Opcjonalnie. Oryginalna data aktualizacji rekordu w źródle, ISO 8601. Puste: brak informacji.",
+      "required": false
+    }
+  ],
+  "example": {
+    "defibrillator_id": "622",
+    "device_access_description": "Poniedziałek: godz. 8:00-18:00; Wtorek-Piątek: godz. 8:00-16:00",
+    "device_availability": "Ograniczona",
+    "device_location": "Wewnątrz budynku",
+    "device_manufacturer": "Medtronic",
+    "device_public_access": "Publiczny",
+    "device_specifications": "Nie",
+    "location_building": "25/27",
+    "location_city": "Warszawa",
+    "location_description": "Przy wejściu na półpiętrze.",
+    "location_object_name": "Urząd Dzielnicy Mokotów m.st. Warszawy",
+    "location_postcode": "02-517",
+    "location_street": "Rakowiecka",
+    "lat": 52.2086170695684,
+    "lon": 21.0148748892902,
+    "device_operational_status": "unknown",
+    "source_updated_at": ""
+  },
+  "source": "https://dane.um.warszawa.pl/pl/catalogue/7bc32ffc-c2ac-4d32-83c9-b6f7a0b38de8",
+  "metadataFields": [
+    {
+      "name": "schema_version",
+      "title": "Wersja struktury",
+      "type": "text",
+      "description": "System. Wersja kontraktu, obecnie 1.0.0.",
+      "required": false
+    },
+    {
+      "name": "registry_id / Feature.id",
+      "title": "ID rejestru",
+      "type": "uuid",
+      "description": "System. Stabilny UUID wyznaczany z przestrzeni nazw źródła i źródłowego ID.",
+      "required": false
+    },
+    {
+      "name": "administrative_area.terc",
+      "title": "Gmina",
+      "type": "text",
+      "description": "Konfiguracja źródła i kontrola granic PRG. Siedmiocyfrowy kod TERC; null, gdy nie ustalono.",
+      "required": false
+    },
+    {
+      "name": "reference_scope.terc",
+      "title": "Deklarowany zakres",
+      "type": "text",
+      "description": "Zakres wskazany przez dostawcę; oddzielny od ustalonej lokalizacji urządzenia.",
+      "required": false
+    },
+    {
+      "name": "provenance[].source_id",
+      "title": "Źródło",
+      "type": "text",
+      "description": "Konfiguracja rejestru źródeł. Trwała przestrzeń nazw dostawcy.",
+      "required": false
+    },
+    {
+      "name": "provenance[].source_record_id",
+      "title": "ID źródłowe",
+      "type": "text",
+      "description": "Oryginalny identyfikator urządzenia. Przy łączeniu zachowujemy wszystkie źródła.",
+      "required": false
+    },
+    {
+      "name": "provenance[].source_url",
+      "title": "Adres źródła",
+      "type": "url",
+      "description": "Publiczny adres źródła. Tokeny pozostają na serwerze i nie trafiają do eksportu.",
+      "required": false
+    },
+    {
+      "name": "provenance[].license",
+      "title": "Warunki wykorzystania",
+      "type": "object",
+      "description": "Nazwa i adres warunków skonfigurowane osobno dla źródła.",
+      "required": false
+    },
+    {
+      "name": "provenance[].source_updated_at",
+      "title": "Data zmiany w źródle",
+      "type": "date-time",
+      "description": "Oryginalna data dostawcy; null, gdy nieznana. Nie jest datą pobrania.",
+      "required": false
+    },
+    {
+      "name": "provenance[].imported_at",
+      "title": "Data pozyskania",
+      "type": "date-time",
+      "description": "System. Rzeczywisty czas odczytu lub załadowania źródła.",
+      "required": false
+    },
+    {
+      "name": "provenance[].checked_at",
+      "title": "Data sprawdzenia źródła",
+      "type": "date-time",
+      "description": "System. Sprawdzenie źródła nie oznacza terenowej weryfikacji AED.",
+      "required": false
+    },
+    {
+      "name": "verification.status",
+      "title": "Weryfikacja",
+      "type": "enum",
+      "description": "unverified albo verified. Zatwierdzenie publikacji przez administratora nie oznacza weryfikacji AED.",
+      "required": false
+    },
+    {
+      "name": "verification.last_verified_at",
+      "title": "Data weryfikacji",
+      "type": "date-time",
+      "description": "Data potwierdzonej weryfikacji AED; null bez potwierdzenia. Nie jest datą decyzji o publikacji.",
+      "required": false
+    },
+    {
+      "name": "review.status",
+      "title": "Decyzja o publikacji",
+      "type": "enum",
+      "description": "unreviewed albo approved. Decyzja administratora w aplikacji.",
+      "required": false
+    },
+    {
+      "name": "review.reviewed_at",
+      "title": "Data decyzji administratora",
+      "type": "date-time",
+      "description": "Nie oznacza weryfikacji terenowej AED ani przyjęcia odpowiedzialności za zbiór.",
+      "required": false
+    }
+  ]
+}

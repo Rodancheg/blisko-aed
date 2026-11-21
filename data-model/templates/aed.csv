@@ -1,0 +1,2 @@
+﻿defibrillator_id,lat,lon,location_object_name,location_street,location_building,location_postcode,location_city,location_description,device_access_description,device_availability,device_public_access,device_location,device_manufacturer,device_specifications,device_operational_status,source_updated_at
+622,52.2086170695684,21.0148748892902,Urząd Dzielnicy Mokotów m.st. Warszawy,Rakowiecka,25/27,02-517,Warszawa,Przy wejściu na półpiętrze.,Poniedziałek: godz. 8:00-18:00; Wtorek-Piątek: godz. 8:00-16:00,Ograniczona,Publiczny,Wewnątrz budynku,Medtronic,Nie,unknown,

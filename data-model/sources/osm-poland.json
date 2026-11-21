@@ -1,0 +1,25 @@
+{
+  "source_id": "osm.pl.aed",
+  "title": "AED in Poland — OpenStreetMap Poland export",
+  "provider": "OpenStreetMap contributors; export hosted by OpenStreetMap Polska",
+  "download_url": "https://aed.openstreetmap.org.pl/aed_poland.geojson",
+  "reference_scope": {
+    "country": "PL"
+  },
+  "format": "GeoJSON FeatureCollection",
+  "license": {
+    "name": "ODbL-1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "snapshot": "data-model/snapshots/osm-poland-2026-11-21.geojson",
+  "fetched_at": "2026-11-21T11:01:45.537389Z",
+  "snapshot_sha256": "2f83a8e99d11eb0262613a04f45a082993743e2cc90a4f760bc7c86dcd864b49",
+  "record_count": 18296,
+  "notes": [
+    "Snapshot downloaded once and processed locally; end-user searches should use the imported registry.",
+    "Source record IDs are @osm_type/@osm_id, preserved independently of city partitions.",
+    "The export does not provide a verified census of all physical AED devices in Poland.",
+    "Per-object version and check_date are retained in raw tags; neither is substituted for our own verification date."
+  ]
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123d35">
+  <meta name="description" content="Znajdź defibrylator AED w swojej okolicy. Sprawdź lokalizację, godziny dostępu i drogę do urządzenia.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg">
+  <title>Blisko AED — pomoc jest bliżej</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="submissions.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body class="home-page">
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="0" height="0">
+    <defs>
+      <symbol id="icon-heart" viewBox="0 0 24 24"><path d="M20.7 4.9a5.6 5.6 0 0 0-7.9 0l-.8.8-.8-.8a5.6 5.6 0 0 0-7.9 7.9L12 21l8.7-8.2a5.6 5.6 0 0 0 0-7.9Z" fill="currentColor" stroke="none"/><path d="m13.1 5.9-4.3 6.5h3l-1 5.7 4.4-7.2h-3.1l1-5Z" fill="#123d35" stroke="none"/></symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 4.3 4.3"/></symbol>
+      <symbol id="icon-locate" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.1"/><circle cx="12" cy="12" r="2.4"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M19.5 10c0 5.5-7.5 11-7.5 11S4.5 15.5 4.5 10a7.5 7.5 0 1 1 15 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24"><path d="m7.2 3.5 2.4 4.6-2.1 2a16.6 16.6 0 0 0 6.4 6.4l2-2.1 4.6 2.4-.6 3.2c-.2.8-.9 1.2-1.7 1.1C10 20.2 3.8 14 2.9 5.8c-.1-.8.3-1.5 1.1-1.7l3.2-.6Z"/></symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.5 2"/></symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Zm6-2v16m6-14v16"/></symbol>
+      <symbol id="icon-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5m0-9v.2"/></symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
+    </defs>
+  </svg>
+  <a class="skip-link" href="#finder">Przejdź do wyszukiwania AED</a>
+  <div class="prototype-strip"><div class="home-container"><span class="prototype-label">Prototyp</span><p>Dane o AED mogą być niekompletne lub nieaktualne.</p><span class="prototype-purpose">Otwarta informacja. Bliższa pomoc.</span></div></div>
+  <header class="home-header home-container">
+    <a class="brand" href="#home" aria-label="Blisko AED — strona główna"><span class="brandicon"><svg class="home-icon" aria-hidden="true"><use href="#icon-heart"/></svg></span><span>blisko<span class="brand-light">AED</span><small>Pomoc jest bliżej.</small></span></a>
+    <nav aria-label="Nawigacja główna"><a href="#finder" class="nav-current">Znajdź AED</a><a href="#how">Jak to działa</a><button type="button" class="nav-admin" id="adminBtn">Panel danych</button></nav>
+    <a class="emergency" href="tel:112"><svg class="home-icon" aria-hidden="true"><use href="#icon-phone"/></svg><span>Zadzwoń <strong>112</strong></span></a>
+  </header>
+  <main id="home">
+    <section class="home-hero home-container" id="finder" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <div class="hero-kicker"><svg class="home-icon" aria-hidden="true"><use href="#icon-locate"/></svg>AED w Twojej okolicy</div>
+        <h1 id="heroTitle">Pomoc jest<br><em>bliżej,</em><br>niż myślisz<span>.</span></h1>
+        <p class="hero-description">Znajdź najbliższy defibrylator. Sprawdź, jak do niego dotrzeć i kiedy jest dostępny.</p>
+        <button type="button" id="locate" class="locate-action"><span class="locate-action-icon"><svg class="home-icon" aria-hidden="true"><use href="#icon-locate"/></svg></span><span>Znajdź najbliższy AED<small>Użyj mojej lokalizacji</small></span></button>
+        <div class="address-search">
+          <label for="search">Lub wpisz miejscowość i adres</label>
+          <div class="search"><svg class="home-icon" aria-hidden="true"><use href="#icon-search"/></svg><input id="search" placeholder="Np. Warszawa, Krucza 25" aria-label="Wyszukaj adres" autocomplete="street-address"><button type="button" id="searchBtn">Szukaj</button></div>
+          <div id="searchChoices" class="search-choices"></div>
+        </div>
+        <p class="location-note"><svg class="home-icon" aria-hidden="true"><use href="#icon-info"/></svg><span>Twoja lokalizacja służy do wyszukania pobliskich AED na serwerze.</span></p>
+        <p class="search-feedback" id="status" role="status">Wybierz lokalizację, aby zobaczyć pobliskie urządzenia.</p>
+      </div>
+      <div class="map-shell">
+        <div class="map-shell-heading"><div><span class="map-heading-icon"><svg class="home-icon" aria-hidden="true"><use href="#icon-map"/></svg></span><div><h2>Mapa AED</h2><p>Sprawdź swoją okolicę</p></div></div><button type="button" id="browse" class="map-browse" aria-label="Przeglądaj mapę AED"><svg class="home-icon" aria-hidden="true"><use href="#icon-map"/></svg><span>Przeglądaj</span></button></div>
+        <div class="map-stage"><div id="aedMap" class="live-map" aria-label="Mapa pobliskich defibrylatorów"></div><div class="map-guide" id="mapGuide"><span class="map-guide-icon"><svg class="home-icon" aria-hidden="true"><use href="#icon-pin"/></svg></span><div><strong>Dobry początek? Twoja okolica.</strong><p>Udostępnij lokalizację lub wpisz adres.</p></div></div></div>
+        <div class="map-shell-footer"><span><svg class="home-icon" aria-hidden="true"><use href="#icon-locate"/></svg><span id="mapStatus">Oczekiwanie na lokalizację</span></span><span class="map-country">Polska</span></div>
+      </div>
+    </section>
+    <section class="nearby-section home-container" id="map" aria-labelledby="nearbyTitle">
+      <div class="section-heading"><div><span class="section-kicker">Blisko Ciebie</span><h2 id="nearbyTitle">AED w pobliżu <span id="resultCount" aria-live="polite">00 PUNKTÓW</span></h2></div><p>Odległość w linii prostej · promień do 10 km</p></div>
+      <div id="resultList" class="result-grid"></div>
+      <div class="source-note"><svg class="home-icon" aria-hidden="true"><use href="#icon-info"/></svg><p>Godziny dostępu nie potwierdzają sprawności urządzenia. Sprawdź opis miejsca i warunki dostępu.</p></div>
+    </section>
+    <section class="how-section" id="how" aria-labelledby="howTitle"><div class="home-container how-layout">
+      <div class="how-intro"><span class="section-kicker">Jak to działa</span><h2 id="howTitle">Mniej szukania.<br>Więcej pewności,<br><em>gdzie iść.</em></h2><p>Potrzebne informacje, w jednym miejscu.</p></div>
+      <ol class="how-steps"><li><span class="step-number">1</span><div><h3>Wskaż miejsce</h3><p>Udostępnij lokalizację lub wyszukaj miejscowość i adres.</p></div><svg class="home-icon" aria-hidden="true"><use href="#icon-locate"/></svg></li><li><span class="step-number">2</span><div><h3>Sprawdź szczegóły</h3><p>Zobacz godziny dostępu i opis dokładnego miejsca instalacji.</p></div><svg class="home-icon" aria-hidden="true"><use href="#icon-info"/></svg></li><li><span class="step-number">3</span><div><h3>Otwórz nawigację</h3><p>Wybierz punkt i przejdź do wyznaczenia trasy w Google Maps.</p></div><svg class="home-icon" aria-hidden="true"><use href="#icon-map"/></svg></li></ol>
+    </div></section>
+    <section class="contribute-section home-container" id="contribute" aria-labelledby="contributeTitle"><div class="contribute-symbol" aria-hidden="true"><svg class="home-icon"><use href="#icon-heart"/></svg><span>AED</span></div><div class="contribute-copy"><span class="section-kicker">Lepsze dane. Bliższa pomoc.</span><h2 id="contributeTitle">Znasz AED,<br>którego tu brakuje?</h2><p>Pomóż uzupełnić mapę. Nowe punkty i zgłoszone poprawki trafiają do weryfikacji administratora.</p></div><button type="button" id="proposePoint" class="submission-open"><svg class="home-icon" aria-hidden="true"><use href="#icon-plus"/></svg>Zgłoś nowy AED</button></section>
+    <section class="data-sources home-container" aria-label="Źródła danych"><span>Źródła danych i wyszukiwania</span><div><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a><span aria-hidden="true">/</span><a href="https://dane.um.warszawa.pl/pl/catalogue/7bc32ffc-c2ac-4d32-83c9-b6f7a0b38de8" target="_blank" rel="noopener noreferrer">Urząd m.st. Warszawy</a><span aria-hidden="true">/</span><span>GUGiK</span></div></section>
+  </main>
+  <footer class="home-footer home-container"><a class="brand" href="#home"><span class="brandicon"><svg class="home-icon" aria-hidden="true"><use href="#icon-heart"/></svg></span><span>blisko<span class="brand-light">AED</span></span></a><p>Otwarta informacja. Pomoc bliżej Ciebie.</p><a href="/datasets.html">Otwarte rejestry</a><a href="/admin/map">Panel danych</a><span>Prototyp hackathonowy · 2026</span></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="hours.js"></script>
+  <script src="aed-photos.js"></script>
+  <script src="app.js"></script>
+  <script src="photo-upload.js"></script>
+  <script src="public-submissions.js"></script>
+</body>
+</html>

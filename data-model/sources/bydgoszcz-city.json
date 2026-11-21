@@ -1,0 +1,33 @@
+{
+  "source_id": "pl.bydgoszcz.city.aed",
+  "title": "AED w Bydgoszczy",
+  "discovery_url": "https://www.bydgoszcz.pl/bezpieczenstwo/abc-bezpieczenstwa/",
+  "embedded_map_url": "https://www.google.com/maps/d/embed?mid=1_gVCuQGcZRIviaAxxvbjC02u33s",
+  "download_url": "https://www.google.com/maps/d/kml?mid=1_gVCuQGcZRIviaAxxvbjC02u33s&forcekml=1",
+  "publisher_context": "Map embedded in the official city website; original map ownership and reuse terms require confirmation.",
+  "reference_scope": {
+    "country": "PL",
+    "city": "Bydgoszcz",
+    "gmina_terc": "0461011"
+  },
+  "format": "KML",
+  "aed_folder": "AED",
+  "source_id_field": "ExtendedData.NR",
+  "license": {
+    "name": null,
+    "url": null,
+    "status": "not_confirmed"
+  },
+  "publication_status": "pending_license_confirmation",
+  "snapshot": "data-model/snapshots/bydgoszcz-municipal-2026-11-21.kml",
+  "fetched_at": "2026-11-21T11:02:53.491942Z",
+  "aed_records": 112,
+  "with_explicit_coordinates": 1,
+  "needs_coordinates": 111,
+  "notes": [
+    "Only the AED folder is imported; the city outline and cultural park are not AED devices.",
+    "Address-only records are kept in staging; their absence of KML coordinates does not mean the city map cannot display them.",
+    "Geocoding a building address would locate the building, not necessarily the AED entrance or its position indoors.",
+    "No automatic union or deduplication with OSM records has been performed."
+  ]
+}
